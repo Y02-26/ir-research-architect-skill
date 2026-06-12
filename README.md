@@ -80,19 +80,19 @@ IR Research Architect ❯
 如果你的 runtime 支持通用 skills 安装器，可以运行：
 
 ```bash
-npx skills add Y02-26/guoji-guanxi-yanjiu-fangfa-skill
+npx skills add Y02-26/ir-research-architect-skill
 ```
 
 ### 方式二：手动安装到 Codex
 
 ```bash
-git clone https://github.com/Y02-26/guoji-guanxi-yanjiu-fangfa-skill ~/.codex/skills/guoji-guanxi-yanjiu-fangfa
+git clone https://github.com/Y02-26/ir-research-architect-skill ~/.codex/skills/ir-research-architect
 ```
 
 Windows PowerShell 可以改成你的 Codex skills 目录，例如：
 
 ```powershell
-git clone https://github.com/Y02-26/guoji-guanxi-yanjiu-fangfa-skill "$env:USERPROFILE\.codex\skills\guoji-guanxi-yanjiu-fangfa"
+git clone https://github.com/Y02-26/ir-research-architect-skill "$env:USERPROFILE\.codex\skills\ir-research-architect"
 ```
 
 ### 方式三：作为研究模板使用
@@ -164,7 +164,7 @@ IR Research Architect 把研究设计拆成八个步骤：
 ## 仓库结构
 
 ```text
-guoji-guanxi-yanjiu-fangfa-skill/
+ir-research-architect-skill/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
