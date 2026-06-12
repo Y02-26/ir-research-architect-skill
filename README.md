@@ -6,7 +6,7 @@
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-blue)](#安装)
 [![Research Methods](https://img.shields.io/badge/IR-Research%20Methods-purple)](#它能帮你做什么)
 
-**IR Research Architect** 是一个面向国际关系、政治学与区域国别研究的 Agent Skill。它把《国际关系研究实用方法（第三版）》的方法论整理成可调用的研究设计知识库，帮你从“我有一个大概想法”走到“我有一个清晰问题、因果机制、变量方案、检验路径和论文结构”。
+**IR Research Architect** 是一个面向国际关系、国际政治、国家安全与区域国别研究等相关专业的 Agent Skill。它把《国际关系研究实用方法（第三版）》的方法论整理成可调用的研究设计知识库，帮你从“我有一个大概想法”走到“我有一个清晰问题、因果机制、变量方案、检验路径和论文结构”。
 
 它不是替你联网搜文献，也不会凭空生成真实文献。它的核心任务是：**把你已有的主题、材料、笔记和文献线索整理成一个有结构、可检验、能推进的研究设计。**
 
