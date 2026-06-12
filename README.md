@@ -1,4 +1,4 @@
-# IR Research Architect.skill
+# 国关研究设计师.skill
 
 > *把一个国际关系选题，搭成一篇能被检验、能被答辩、能被写完的研究。*
 
