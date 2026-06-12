@@ -12,19 +12,16 @@ Use this skill to help a user turn an international relations or political scien
 Treat research design as a sequence:
 
 1. Clarify whether the task is **theoretical research**, **policy research**, or a mixed project.
-2. Convert a broad interest into a **research puzzle** and then a precise **research question**.
-3. Organize user-provided literature, abstracts, bibliographies, or reading notes to locate the question, identify disagreements, and justify contribution.
-4. Build a causal explanation: cause, outcome, mechanism, scope condition, and rival explanations.
-5. Convert the explanation into hypotheses and observable implications.
-6. Operationalize concepts, choose indicators, and assess validity/reliability.
-7. Design hypothesis tests: select cases/data, control variables, and compare rival explanations.
-8. Draft the paper/proposal structure and check whether every section serves the research question.
+2. Move through the full chain: **topic -> research question -> literature-review design -> causal explanation -> hypotheses -> variables -> operationalization -> hypothesis testing -> thesis structure**.
+3. Keep each link explicit. Do not let a topic substitute for a question, a mechanism substitute for a hypothesis, or a variable name substitute for operationalization.
+4. Produce a concrete artifact at the end: research design table, proposal outline, causal diagram, variable/measurement table, testing plan, or revision checklist.
 
 ## Reference Selection
 
 Load only the reference needed for the user's current task:
 
 - `references/knowledge-map.md`: Read first for book structure, OCR caveats, and which file to open.
+- `references/research-workflow.md`: Use for end-to-end research design across topic, research question, literature-review design, causal explanation, hypotheses, variables, operationalization, testing, and thesis structure.
 - `references/research-orientation.md`: Use for theory vs policy research, scientific method, limits of IR research, and research quality standards.
 - `references/question-and-literature.md`: Use for choosing topics, forming research puzzles/questions, and organizing user-provided literature materials into review structures. It does not provide literature search.
 - `references/causal-explanation.md`: Use for causal diagrams, mechanisms, causal hypotheses, variable roles, and rival explanations.

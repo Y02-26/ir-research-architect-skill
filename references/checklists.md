@@ -19,6 +19,18 @@ Use these for fast critique, grading, or revision.
 - Variable control strategy is justified.
 - Inference risks are acknowledged.
 
+## Full Workflow Checklist
+
+- **选题**: names a concrete phenomenon, actors/cases, time range, and observable variation.
+- **研究问题**: asks why/how/under what conditions; includes an explicit outcome.
+- **文献综述设计**: groups user-provided sources by explanation type or debate; identifies a real gap.
+- **因果解释**: states X, Y, mechanism, scope condition, and rival explanations.
+- **假设**: has direction, condition, mechanism, and observable implications.
+- **变量**: distinguishes independent, dependent, mediating, moderating, confounding, and control variables.
+- **操作化**: defines concepts, dimensions, indicators, sources, coding rules, validity, and reliability.
+- **假设检验**: specifies evidence, method, case/sample logic, controls, rivals, and falsifying evidence.
+- **论文结构**: each chapter serves the research question and testing strategy.
+
 ## Literature Review Checklist
 
 - Literature is grouped by debate, explanation, mechanism, or method.

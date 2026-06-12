@@ -28,6 +28,7 @@ The book's practical sequence can be used as the default research workflow:
 ## Which Reference To Use
 
 - Need to define what kind of project this is: open `research-orientation.md`.
+- Need a complete design from topic to thesis structure: open `research-workflow.md`.
 - Need to turn a broad interest into a feasible question: open `question-and-literature.md`.
 - Need hypotheses or causal mechanisms: open `causal-explanation.md`.
 - Need variables, indicators, or measurement: open `operationalization-measurement.md`.
@@ -40,6 +41,7 @@ The book's practical sequence can be used as the default research workflow:
 For most user tasks, produce one of these:
 
 - Research design table: question, puzzle, dependent variable, independent variable, mechanism, scope, cases, evidence, method.
+- End-to-end workflow table: topic, research question, literature-review design, causal explanation, hypotheses, variables, operationalization, testing, thesis structure.
 - Causal explanation map: X -> mechanism -> Y, with confounders, mediators, colliders, and rival explanations.
 - Literature-material matrix: user-provided author/work, research question, theory, method, evidence, finding, limitation, relevance.
 - Operationalization table: concept, definition, dimensions, indicators, data source, measurement level, validity risk.
