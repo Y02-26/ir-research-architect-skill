@@ -24,7 +24,7 @@ Load only the reference needed for the user's current task:
 - `references/research-workflow.md`: Use for end-to-end research design across topic, research question, literature-review design, causal explanation, hypotheses, variables, operationalization, testing, and thesis structure.
 - `references/research-orientation.md`: Use for theory vs policy research, scientific method, limits of IR research, and research quality standards.
 - `references/question-and-literature.md`: Use for choosing topics, forming research puzzles/questions, and organizing user-provided literature materials into review structures. It does not provide literature search.
-- `references/causal-explanation.md`: Use for causal diagrams, mechanisms, causal hypotheses, variable roles, and rival explanations.
+- `references/causal-explanation.md`: Use for causal diagrams, mechanisms, variable relationship types, counterfactual reasoning, causal comparability, causal hypotheses, observable implications, rival explanations, and hypothesis revision.
 - `references/operationalization-measurement.md`: Use for concept operationalization, indicators, measurement level, validity, and reliability.
 - `references/hypothesis-testing.md`: Use for qualitative/quantitative testing logic, case comparison, process tracing, variable control, and common inference errors.
 - `references/thesis-writing.md`: Use for proposal and thesis/report structure, academic writing, notes, references, appendix, and index-like elements.

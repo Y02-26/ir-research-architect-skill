@@ -42,14 +42,33 @@ Use these for fast critique, grading, or revision.
 
 ## Causal Explanation Checklist
 
-- X precedes Y.
-- Mechanism has identifiable steps.
-- Each step has observable implications.
-- Rival mechanisms are plausible and testable.
-- Confounders are considered.
-- Mediators are not accidentally controlled away.
-- The causal graph is coherent.
-- The claim does not exceed the evidence.
+- The dependent variable Y is defined before choosing the favorite explanation.
+- The variation in Y is clear: occurrence, degree, change, timing, success/failure, or cross-case difference.
+- X precedes Y and is not defined by Y.
+- The mechanism identifies actors, incentives/beliefs/capabilities/information/constraints, and temporal sequence.
+- Each mechanism step explains why the next step follows.
+- Each step has observable implications: pattern, sequence, or trace evidence.
+- Scope conditions state when, where, and for whom the claim should hold.
+- Rival mechanisms are plausible and testable, not weak straw men.
+- Confounders are considered and separated from mediators.
+- Mediators are not accidentally controlled away when the goal is to explain total effect.
+- Colliders are not controlled in a way that creates bias.
+- Counterfactual reasoning is historically plausible and changes only the key factor as much as possible.
+- Case comparison is causally meaningful: comparable background, different outcome or different X, and available evidence.
+- The causal graph is coherent and contains X, Y, mechanism, scope condition, confounder, and rival where relevant.
+- The claim does not exceed the evidence or the stated scope.
+
+## Hypothesis Building Checklist
+
+- The hypothesis contains X, Y, direction, scope, mechanism, and observable implication.
+- It is more precise than a viewpoint and less abstract than a whole theory.
+- It can fail if evidence contradicts it.
+- It is not circular or tautological.
+- It does not combine multiple unrelated mechanisms in one sentence.
+- At least one rival hypothesis is included.
+- Mechanism hypotheses and scope hypotheses are separated when needed.
+- The expected evidence chain is explicit: what should appear before X, after X, inside the mechanism, and at Y.
+- Disconfirming evidence is named, not hidden.
 
 ## Operationalization Checklist
 
