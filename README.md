@@ -216,3 +216,9 @@ python scripts/ir_research_design.py --topic "地区组织与冲突调停" --mod
 让一个研究从第一天起就有骨架。
 
 一个好研究不是资料越多越好，而是每一份资料都知道自己在回答哪个问题。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Y02-26/ir-research-architect-skill&type=Date)](https://www.star-history.com/#Y02-26/ir-research-architect-skill&Date)
+
+---
