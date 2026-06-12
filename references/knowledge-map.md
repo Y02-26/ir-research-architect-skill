@@ -19,7 +19,7 @@ The book's practical sequence can be used as the default research workflow:
 1. **国际关系研究的性质**: distinguish academic research, policy research, diplomatic practice, and commentary.
 2. **科学研究方法**: understand scientific method, research quality, iteration, scientific spirit, and limits of IR research.
 3. **选择研究问题**: move from puzzle to question; choose questions that are clear, meaningful, and answerable.
-4. **文献材料整理**: organize user-provided literature, abstracts, bibliographies, or reading notes; use them to locate debates and contribution. This knowledge base does not search for literature or invent citations.
+4. **文献综述设计**: organize user-provided literature, abstracts, bibliographies, or reading notes; use them to locate debates and contribution. This knowledge base does not search for literature or invent citations.
 5. **构建因果解释**: clarify causal relation, build mechanism, state scope, and produce hypotheses.
 6. **概念操作化与测量**: translate abstract concepts into observable indicators and assess measurement quality.
 7. **实施假设检验**: test hypotheses, control variables, address uncertainty, compare qualitative and quantitative strategies.
