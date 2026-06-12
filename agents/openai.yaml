@@ -1,0 +1,4 @@
+interface:
+  display_name: "国际关系研究方法"
+  short_description: "IR methods, causal design, and thesis writing"
+  default_prompt: "Use $guoji-guanxi-yanjiu-fangfa to design a rigorous international relations research plan."
