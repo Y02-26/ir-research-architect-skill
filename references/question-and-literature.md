@@ -1,6 +1,10 @@
-# Research Questions And Literature Review
+# Research Questions And Literature Materials
 
-Use this file when the user has a broad topic, a vague puzzle, or a draft literature review.
+Use this file when the user has a broad topic, a vague puzzle, a draft literature review, or user-provided literature materials such as article titles, abstracts, reading notes, bibliographies, or pasted excerpts.
+
+## Boundary
+
+This skill does not search for literature and must not invent real citations. For literature-review work, use only the sources or notes the user provides, plus general methodological categories from the knowledge base. If the user asks for actual source discovery, use a separate web or academic-search workflow and cite real sources.
 
 ## From Interest To Puzzle To Question
 
@@ -55,17 +59,18 @@ A literature review is not a stack of summaries. It should:
 - Show why the new question is necessary.
 - Prepare the ground for the user's causal explanation.
 
-## Literature Review Steps
+## Literature Material Organization Steps
 
-1. **Find literature**: start with authoritative works, recent journal articles, core debates, and cited-by chains.
-2. **Select literature**: prioritize relevance to the question, method, concept, and causal mechanism.
-3. **Critically evaluate literature**: identify assumptions, evidence, scope, method, and limitations.
+1. **Inventory provided materials**: list the sources, abstracts, notes, or bibliographic entries the user has supplied.
+2. **Group materials**: organize them by explanation type, mechanism, concept, method, case, or debate.
+3. **Critically evaluate materials**: identify assumptions, evidence, scope, method, and limitations.
+4. **Locate the gap**: state what the supplied materials explain well, what remains unresolved, and how the user's project can contribute.
 
 Avoid organizing solely by author order. Prefer organizing by explanation type, mechanism, method, or debate.
 
 ## Literature Matrix
 
-Use this table when helping the user read or organize literature:
+Use this table when helping the user read or organize literature materials supplied by the user:
 
 | Work | Question | Explanation | Method/evidence | Finding | Limitation | Use in my paper |
 |---|---|---|---|---|---|---|

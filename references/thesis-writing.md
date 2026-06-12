@@ -54,7 +54,7 @@ For a proposal or 开题报告:
 ## Section-Level Rules
 
 - Introduction should not become a long history section. It must lead quickly to the puzzle and question.
-- Literature review should not be a book report. It should build a debate map.
+- Literature review should not be a book report. When sources are provided by the user, organize them into a debate map; do not invent missing citations.
 - Theory section must produce testable expectations.
 - Method section must explain why the evidence can answer the question.
 - Empirical chapters should test the argument, not merely narrate events.

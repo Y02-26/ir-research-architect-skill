@@ -19,7 +19,7 @@ The book's practical sequence can be used as the default research workflow:
 1. **国际关系研究的性质**: distinguish academic research, policy research, diplomatic practice, and commentary.
 2. **科学研究方法**: understand scientific method, research quality, iteration, scientific spirit, and limits of IR research.
 3. **选择研究问题**: move from puzzle to question; choose questions that are clear, meaningful, and answerable.
-4. **文献回顾**: find, select, and critically evaluate literature; use the review to locate contribution.
+4. **文献材料整理**: organize user-provided literature, abstracts, bibliographies, or reading notes; use them to locate debates and contribution. This knowledge base does not search for literature or invent citations.
 5. **构建因果解释**: clarify causal relation, build mechanism, state scope, and produce hypotheses.
 6. **概念操作化与测量**: translate abstract concepts into observable indicators and assess measurement quality.
 7. **实施假设检验**: test hypotheses, control variables, address uncertainty, compare qualitative and quantitative strategies.
@@ -41,7 +41,7 @@ For most user tasks, produce one of these:
 
 - Research design table: question, puzzle, dependent variable, independent variable, mechanism, scope, cases, evidence, method.
 - Causal explanation map: X -> mechanism -> Y, with confounders, mediators, colliders, and rival explanations.
-- Literature review matrix: author/work, research question, theory, method, evidence, finding, limitation, relevance.
+- Literature-material matrix: user-provided author/work, research question, theory, method, evidence, finding, limitation, relevance.
 - Operationalization table: concept, definition, dimensions, indicators, data source, measurement level, validity risk.
 - Hypothesis-testing plan: primary hypothesis, rival hypotheses, observable implications, case/data strategy, control strategy, falsification risk.
 - Thesis/proposal outline: introduction, literature review, theory, method, empirical chapters, conclusion.
