@@ -52,7 +52,8 @@ Use these for fast critique, grading, or revision.
 - Rival mechanisms are plausible and testable, not weak straw men.
 - Confounders are considered and separated from mediators.
 - Mediators are not accidentally controlled away when the goal is to explain total effect.
-- Colliders are not controlled in a way that creates bias.
+- Collider variables are drawn accurately: in the book's Figure 5.5, `X -> Y`, `X -> D`, and `Y -> D`; D is not a third cause but the common result of X and Y.
+- Colliders are not controlled in a way that creates collider stratification bias.
 - Counterfactual reasoning is historically plausible and changes only the key factor as much as possible.
 - Case comparison is causally meaningful: comparable background, different outcome or different X, and available evidence.
 - The causal graph is coherent and contains X, Y, mechanism, scope condition, confounder, and rival where relevant.

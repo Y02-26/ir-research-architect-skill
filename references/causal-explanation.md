@@ -16,7 +16,7 @@ Be careful about which concepts are directly from the book and which are agent-f
 | 中介变量 / mediator | Yes | Use when X affects Y through an intermediate variable. |
 | 因果机制 / causal mechanism | Yes | Use to explain how entities and activities generate an outcome. |
 | 混杂变量 / confounder | Yes | Use to identify a third factor that may create spurious correlation. |
-| 撞子变量 / collider | Yes | Use cautiously; the book introduces it as a variable type, with control implications discussed later. |
+| 撞子变量 / collider | Yes | In the book's Figure 5.5, D is the common result of X and Y while X also points to Y: `X -> Y`, `X -> D`, `Y -> D`. Do not simplify it into an unrelated third-cause pattern. |
 | 因果图 / causal diagram / DAG | Yes | Use to clarify variable positions and arrows, not as a substitute for mechanism. |
 | 反事实 / counterfactual | Yes | Use to ask whether Y would change if X had not occurred. |
 | 因果意义上的可比性 | Yes | Use when building counterfactual or case comparisons. |
@@ -160,13 +160,17 @@ Use confounders to ask whether the proposed causal relation is actually produced
 
 ### Collider
 
-A collider is a common effect of two causes.
+Use the book's Figure 5.5 structure. In that figure, the collider variable is **D**, and it is the common result of the independent variable **X** and dependent variable **Y**. The diagram also keeps the direct causal relation from X to Y.
 
 ```text
-X -> K <- Z
+X -> Y
+X -> D
+Y -> D
 ```
 
-The book introduces collider variables as part of variable-relation diagrams. The practical implication is mainly handled in variable-control logic: conditioning on a collider can distort inference.
+This means D is not a cause of X or Y in the diagram. It is downstream of both. Treating D as a control variable can create collider stratification bias because the researcher is conditioning on a result jointly produced by the variables whose relation is being studied.
+
+Do not replace the book's diagram with a loose generic collider pattern when explaining this chapter. The book's Figure 5.5 is specifically about a collider D produced by X and Y in a causal relation that already includes `X -> Y`.
 
 ### Causal Diagram
 
@@ -174,13 +178,13 @@ Use a causal diagram to display variables and directed causal assumptions.
 
 ```mermaid
 flowchart LR
-  X["X: 自变量 / proposed cause"] --> M["M: 中介变量或机制环节"]
-  M --> Y["Y: 因变量 / outcome"]
+  X["X: 自变量 / proposed cause"] --> Y["Y: 因变量 / outcome"]
+  X --> M["M: 中介变量或机制环节"]
+  M --> Y
   C["C: 混杂变量"] --> X
   C --> Y
-  K["K: 撞子变量"] 
-  X --> K
-  Z["Z: 其他因素"] --> K
+  X --> D["D: 撞子变量 / collider"]
+  Y --> D
 ```
 
 Do not confuse:
@@ -577,4 +581,3 @@ When using this file:
 3. Say that `Rival cause R` is this skill's operational shorthand for the book's broader concern with excluding spurious relations, other factors, and empirical anomalies.
 4. Build causal explanations in the book's order: variable relation -> principles -> counterfactual/mechanism -> hypothesis -> revision.
 5. Prefer Chinese terms for user-facing answers: 自变量、因变量、中介变量、混杂变量、撞子变量、因果机制、反事实、限界条件、经验反常、转化策略、消解策略.
-
