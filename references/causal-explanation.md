@@ -1,129 +1,154 @@
 # Causal Explanation And Hypotheses
 
-Use this file when a user needs to build a causal explanation, clarify variable relations, draw a causal diagram, form research hypotheses, compare rival explanations, or revise the theory section of an IR/political science paper.
+Use this file when a user needs to build or revise the causal-explanation and hypothesis section of an international relations / political science research design.
 
-This is a paraphrased and expanded methodological guide based on the book chapter on constructing causal explanations. Do not reproduce the book's wording. Turn the ideas into research-design artifacts.
+This file is an OCR-assisted, paraphrased, agent-oriented synthesis of Chapter 5, "构建因果解释", from the source book. It is not a verbatim reproduction. Use it to produce research-design artifacts: causal diagrams, mechanism chains, hypotheses, counterfactual comparisons, and revision checklists.
 
-## Chapter Logic
+## Source Alignment Notes
 
-The chapter's practical sequence is:
+Be careful about which concepts are directly from the book and which are agent-facing operational additions.
 
-1. **明确因果关系**: define what it means to say X causes Y, and distinguish causal relation from mere correlation or description.
-2. **图解因果关系**: use diagrams to clarify variables, mechanisms, confounders, mediators, colliders, and the conditions under which comparison is meaningful.
-3. **构建因果解释**: explain why and how the cause produces the outcome through an explicit mechanism.
-4. **提出因果假设**: translate explanation into testable propositions and observable implications.
-5. **修改因果假设**: revise vague, unfalsifiable, overbroad, or empirically unsupported hypotheses into sharper forms.
-
-## 1. What Counts As A Causal Explanation
-
-A causal explanation answers **why Y occurs, changes, varies, or differs across cases**. It is not enough to say that two phenomena appear together.
-
-A complete causal explanation should specify:
-
-| Element | Question To Answer | Common Output |
+| Term / Element | In the book? | How to use in this skill |
 |---|---|---|
-| Outcome Y | What exactly needs explaining? | A clear dependent variable |
-| Cause X | What factor is expected to produce or change Y? | An independent variable |
-| Mechanism M | Through what process does X affect Y? | A stepwise causal chain |
-| Scope S | Under what conditions should the relation hold? | Case, time, actor, institutional or structural boundary |
-| Rival R | What else could explain Y? | Competing hypotheses |
-| Observable O | What evidence should appear if the explanation is right? | Traces, patterns, documents, behaviors, data |
+| 因果关系 | Yes | Core starting point: explain cause, outcome, and causal relation. |
+| 规律性因果 / 反事实因果 / 机制性因果 | Yes | Use as the three ways to understand causal relation. |
+| 自变量 X / 因变量 Y | Yes | Use as the basic notation for cause and outcome. |
+| 中介变量 / mediator | Yes | Use when X affects Y through an intermediate variable. |
+| 因果机制 / causal mechanism | Yes | Use to explain how entities and activities generate an outcome. |
+| 混杂变量 / confounder | Yes | Use to identify a third factor that may create spurious correlation. |
+| 撞子变量 / collider | Yes | Use cautiously; the book introduces it as a variable type, with control implications discussed later. |
+| 因果图 / causal diagram / DAG | Yes | Use to clarify variable positions and arrows, not as a substitute for mechanism. |
+| 反事实 / counterfactual | Yes | Use to ask whether Y would change if X had not occurred. |
+| 因果意义上的可比性 | Yes | Use when building counterfactual or case comparisons. |
+| 限界条件 / scope condition | Yes | The book explicitly uses it when discussing how to revise hypotheses after empirical anomalies; it means the applicable boundary of a causal hypothesis. |
+| Scope condition S | Partly | The concept is in the book; the letter `S` is this skill's shorthand for ease of diagramming. |
+| Rival cause R | Not as a fixed book term | The book does not present `R` as a formal element. This skill uses `R` to operationalize the book's emphasis on excluding spurious relations, considering other variables/factors, and handling empirical anomalies. Prefer calling it "替代解释/其他可能原因" in Chinese output. |
+| 可观察含义 / observable implications | Methodological addition | The book stresses empirical testability and experience facts; this skill uses "observable implications" as an agent-facing bridge from hypothesis to evidence. |
 
-Do not accept "X influences Y" as a finished explanation. Ask:
+## Chapter Structure
 
-- What is the outcome and how does it vary?
-- What is the proposed cause and when does it occur?
-- What changes first, and what changes after that?
-- Which actor's incentives, beliefs, capabilities, information, or constraints change?
-- What evidence would be visible if this mechanism operated?
-- What other explanations would produce the same outcome?
+The chapter has three major tasks:
 
-## 2. From Research Question To Causal Question
+1. **明确因果关系**: clarify what causality means and how causal relations differ from correlation.
+2. **构建因果解释**: state principles and methods for explaining why and how a cause produces an outcome.
+3. **提出并修改因果假设**: turn causal explanation into testable hypotheses, then revise them when operationalization or evidence creates problems.
 
-Many topics are descriptive at first. Convert them into causal questions.
+The chapter is not merely about "X -> M -> Y". Its logic is closer to:
 
-| Weak Form | Causal Form |
-|---|---|
-| "Study China's global governance participation" | Why did China's participation in a specific governance field increase, decline, or change form during a specific period? |
-| "Analyze alliance politics in East Asia" | Why did some states strengthen alliance cooperation while others hedged under similar security pressure? |
-| "Discuss international organizations and conflict" | Under what conditions do regional organizations reduce conflict escalation? |
-| "Examine technology competition" | How does export-control pressure change the target state's industrial policy choices? |
+```text
+research question
+-> define variables and causal relation
+-> diagram variable positions
+-> satisfy causal-explanation principles
+-> build counterfactual and/or mechanism
+-> form hypotheses
+-> test and revise hypotheses
+```
 
-Good causal questions usually ask:
+## 1. Clarify Causal Relation
 
-- **Why Y?** Why did an outcome occur?
-- **Why variation?** Why did Y occur in some cases but not others?
-- **Why change?** Why did the same actor behave differently over time?
-- **How?** Through what mechanism did X produce Y?
-- **Under what conditions?** When is X likely or unlikely to produce Y?
+Start by separating **correlation**, **causal relation**, and **causal explanation**.
 
-## 3. Causal Relation Is Not Correlation
+### Three Understandings Of Causality
 
-Correlation is useful but insufficient. A causal claim requires a plausible ordering and a mechanism.
-
-### Minimum Criteria
-
-- **Covariation**: X and Y vary together in a meaningful pattern.
-- **Temporal order**: X occurs before Y, or before the relevant change in Y.
-- **Non-spuriousness**: the relation is not mainly produced by a third factor.
-- **Mechanism**: there is a credible process linking X to Y.
-- **Counterfactual plausibility**: if X had been absent or different, Y would likely have been different.
-
-### Common Confusions
-
-- A trend is not a cause.
-- A background condition is not necessarily the decisive cause.
-- A concept label is not a mechanism.
-- A case narrative is not automatically a causal explanation.
-- Statistical association does not by itself show the mechanism.
-- Strong plausibility does not remove the need for rival explanations.
-
-## 4. Variable Relationship Types
-
-Use variables to clarify what is being compared and explained.
-
-| Role | Meaning | Diagnostic Question |
+| Type | Core Idea | Typical Use |
 |---|---|---|
-| Independent variable X | Proposed cause | What changes the outcome? |
-| Dependent variable Y | Outcome to explain | What varies across cases or over time? |
-| Mediating variable M | Process transmitting X's effect | Through what intermediate step does X affect Y? |
-| Moderating/scope variable S | Condition changing the strength or direction of X's effect | When does X matter more or less? |
-| Confounder C | Factor affecting both X and Y | Could C create a false X-Y relationship? |
-| Collider K | Common effect of X and another factor | Would controlling for K create bias? |
-| Control variable | Variable accounted for to isolate X-Y relation | Why should this be controlled, and what bias does it reduce? |
+| 规律性因果 | Cause and outcome show regular connection; X's presence or change is associated with Y's occurrence or change. | Useful for case comparison, statistical association, and identifying empirical patterns. |
+| 反事实因果 | If X had been absent or different, Y would not have occurred or would have changed. | Useful for case-study "thought experiments", close comparisons, and causal-effect reasoning. |
+| 机制性因果 | X produces Y through a process made of entities, activities, and generative links. | Useful for explaining how and why the outcome occurred. |
+
+Do not treat these as mutually exclusive. A strong causal explanation often combines:
+
+- a pattern showing X and Y are related;
+- a counterfactual showing Y depends on X;
+- a mechanism showing how X generates Y.
+
+### Effects-Of-Causes And Causes-Of-Effects
+
+Distinguish two research orientations:
+
+| Orientation | Core Question | Output |
+|---|---|---|
+| Effects-of-causes | Does X affect Y, and how much? | Estimate or compare the effect of a cause. |
+| Causes-of-effects | What caused this specific Y, and through what path? | Explain a particular outcome or case. |
+
+In many IR theses, the user starts with causes-of-effects: "Why did this event/outcome happen?" Then the design still needs X/Y clarity so the explanation can be tested.
+
+## 2. From Concepts To Variables
+
+The book emphasizes moving from concepts to variables. A concept becomes useful for causal research only when it can vary in the research context.
+
+### Concept, Constant, Variable
+
+- A **concept** names a phenomenon or property.
+- A **constant** does not vary in the selected research setting.
+- A **variable** has more than one value in the selected research setting.
+
+Whether something is a variable depends on the research context. A factor may be constant in a short time span and variable in a long time span.
+
+### Independent And Dependent Variables
+
+| Variable | Meaning | Common Error |
+|---|---|---|
+| 自变量 X | The proposed cause; its change is expected to produce change in another variable. | Choosing X because it is theoretically fashionable, not because it helps answer the question. |
+| 因变量 Y | The outcome to be explained. | Leaving Y vague, such as "security", "order", or "cooperation" without specifying variation. |
+
+The same concept can be X in one research question and Y in another. The role is determined by the research question, not by the concept itself.
+
+## 3. Diagram Variable Relations
+
+The book uses diagrams to distinguish correlation, causality, mediation, mechanism, confounding, collider relations, and causal graphs.
+
+### Correlation Vs Causation
+
+Correlation is directionless; causal relation has direction.
+
+```text
+Correlation: X -- Y
+Causation:   X -> Y
+```
+
+Minimum causal requirements:
+
+1. **Temporal order**: the cause appears before the outcome.
+2. **Correlation / covariation**: X and Y show an observable relation.
+3. **No obvious spurious relation**: the association is not mainly produced by another factor.
+4. **Counterfactual and/or mechanism**: the design can show dependence or generation.
 
 ### Mediator
 
-A mediator is part of the causal chain. If the goal is to estimate or explain the total effect of X on Y, do not casually control for the mediator.
+A mediating variable sits between X and Y. It transmits the effect.
 
 ```text
 X -> M -> Y
 ```
 
-Example pattern:
-
-```text
-External threat -> elite threat perception -> alliance tightening
-```
-
-### Moderator Or Scope Condition
-
-A moderator changes when or how strongly X affects Y.
-
-```text
-X -> Y
-S changes the strength/direction of X -> Y
-```
+Use a mediator when the user needs to answer "how does X affect Y?"
 
 Example pattern:
 
 ```text
-Economic dependence reduces conflict risk mainly when political trust is not collapsing.
+共同威胁 -> 共同战略利益 -> 军事同盟
 ```
+
+Do not casually control for a mediator if the research goal is to explain the total effect of X on Y.
+
+### Causal Mechanism
+
+A causal mechanism is not just another variable. It is a connected process involving entities and activities.
+
+```text
+Entity or actor with attributes
+-> activity
+-> next entity/activity
+-> generated outcome
+```
+
+The book's key warning: **a mechanism cannot be reduced to a variable**. Variables ask about values; mechanisms ask how entities and activities are organized and operate.
 
 ### Confounder
 
-A confounder affects both X and Y, making the apparent relation potentially spurious.
+A confounder affects both X and Y, making the observed relation potentially spurious.
 
 ```text
 C -> X
@@ -131,383 +156,425 @@ C -> Y
 X -> Y ?
 ```
 
-Example pattern:
-
-```text
-Historical hostility may affect both alliance choice and conflict probability.
-```
+Use confounders to ask whether the proposed causal relation is actually produced by a third factor.
 
 ### Collider
 
-A collider is a common effect. Conditioning on it can create a misleading relationship.
+A collider is a common effect of two causes.
 
 ```text
 X -> K <- Z
 ```
 
-Example pattern:
+The book introduces collider variables as part of variable-relation diagrams. The practical implication is mainly handled in variable-control logic: conditioning on a collider can distort inference.
 
-```text
-Studying only crises that became highly publicized may distort the relation between leadership style and escalation, because publicity can be caused by both.
-```
+### Causal Diagram
 
-## 5. Causal Diagram Template
-
-Use diagrams before writing prose. They expose missing variables, circular logic, and bad controls.
+Use a causal diagram to display variables and directed causal assumptions.
 
 ```mermaid
 flowchart LR
-  X["Cause X"] --> M1["Mechanism step 1"]
-  M1 --> M2["Mechanism step 2"]
-  M2 --> Y["Outcome Y"]
-  C["Confounder C"] --> X
+  X["X: 自变量 / proposed cause"] --> M["M: 中介变量或机制环节"]
+  M --> Y["Y: 因变量 / outcome"]
+  C["C: 混杂变量"] --> X
   C --> Y
-  S["Scope condition S"] -.changes effect.-> M1
-  R["Rival cause R"] --> Y
+  K["K: 撞子变量"] 
+  X --> K
+  Z["Z: 其他因素"] --> K
 ```
 
-When producing a diagram for a user, also write a one-paragraph interpretation:
+Do not confuse:
 
-```text
-This explanation argues that X changes [actor]'s [belief/incentive/capability/constraint], which leads to [behavior]. That behavior changes [interaction/institution/distribution], and this produces Y. The argument is expected to hold under S. R is the main rival explanation.
-```
+- causal diagram: a simplified map of variable relations;
+- causal mechanism: a generative process linking entities and activities;
+- theory framework: a broader argument that may include concepts, assumptions, and hypotheses.
 
-## 6. Causal Mechanism
+## 4. Principles For Constructing Causal Explanation
 
-A causal mechanism is the process through which a cause produces an outcome. In IR research, mechanisms often work through actors' perceptions, incentives, constraints, resources, institutions, identities, or strategic interaction.
+The book presents causal explanation as requiring basic principles plus at least one key strengthening route.
 
-### Mechanism Checklist
+### Basic Principles
 
-A good mechanism should:
-
-- identify actors, not only structures;
-- specify the relevant incentive, belief, capability, information, norm, or institutional constraint;
-- show temporal order;
-- connect each step with a reason;
-- generate observable traces;
-- distinguish itself from rival mechanisms;
-- avoid assuming the outcome inside the explanation.
-
-### Mechanism Building Formula
-
-```text
-X changes actor A's [belief / incentive / capability / information / constraint / identity].
-Because of this change, A chooses [strategy or behavior].
-That behavior alters [interaction pattern / institutional rule / distribution of resources / credibility / bargaining range].
-The altered condition produces Y.
-```
-
-### Mechanism Types In IR
-
-| Mechanism Type | Core Logic | Typical Evidence |
+| Principle | Meaning | Diagnostic Question |
 |---|---|---|
-| Power-distribution mechanism | Changes in relative capability alter threat, bargaining leverage, or balancing behavior | capability data, defense policy, alliance moves, elite assessments |
-| Security-dilemma mechanism | Defensive measures are interpreted as offensive threats, producing spirals | military deployments, threat narratives, signaling failures |
-| Credibility/commitment mechanism | Actors doubt promises or threats because future incentives differ | negotiation records, alliance commitments, audience costs, enforcement design |
-| Domestic-politics mechanism | Internal coalitions, regime survival, public opinion, or bureaucratic politics shape external behavior | party debates, elite speeches, interest-group pressure, bureaucratic documents |
-| Institutional mechanism | Rules, monitoring, information, or enforcement alter actor behavior | treaty design, voting rules, compliance reports, dispute-settlement records |
-| Norm/identity mechanism | Shared ideas define appropriateness, legitimacy, or role expectations | discourse, identity claims, norm diffusion, socialization evidence |
-| Economic-interdependence mechanism | Trade, finance, supply chains, or sanctions alter costs and preferences | trade data, firm lobbying, sanctions records, investment flows |
-| Learning mechanism | Past experience updates beliefs and policy repertoires | policy reviews, memoirs, lessons-learned documents, doctrinal shifts |
-| Path-dependence mechanism | Early choices create increasing returns or lock-in | sequencing evidence, sunk costs, institutional inertia |
+| 时序性 | Cause must precede outcome. | Did X occur before Y, or before the relevant change in Y? |
+| 相关性 | X and Y must show an observable relation. | Is there covariation, co-occurrence, or patterned difference? |
+| 排除虚假相关 | The relation should not be created by measurement error, selection, or third factors. | What else could produce both X and Y? |
 
-## 7. Constructing Causal Explanation
+### Strengthening Routes
 
-### Step 1: Define Y First
+After temporal order and correlation, a causal explanation should use **at least one** of:
 
-Start from the outcome, not from the favorite theory.
-
-Bad:
-
-```text
-This paper studies whether institutions matter.
-```
-
-Better:
-
-```text
-This paper explains why ASEAN mediation reduced escalation in case A but failed in case B.
-```
-
-### Step 2: Identify Variation
-
-Ask what kind of variation is being explained:
-
-- occurrence vs non-occurrence;
-- high vs low level;
-- increase vs decrease;
-- success vs failure;
-- different policy choices;
-- different timing;
-- different intensity.
-
-### Step 3: Select Candidate X
-
-A useful X should:
-
-- precede Y;
-- plausibly vary across cases or time;
-- not be identical to Y;
-- connect to existing theoretical debate;
-- be observable or operationalizable.
-
-### Step 4: Build The Mechanism
-
-Write the mechanism in 3-5 linked steps. Each step should answer "why does the next step follow?"
-
-### Step 5: Define Scope
-
-No causal explanation applies everywhere. Specify:
-
-- actor type: great powers, small states, international organizations, leaders, firms, armed groups;
-- system condition: war, crisis, transition, unipolarity, multipolarity;
-- institutional condition: high/low legalization, monitoring, enforcement;
-- domestic condition: regime type, coalition structure, public pressure;
-- temporal boundary: before/after a reform, crisis, war, or leadership change.
-
-### Step 6: Add Rival Explanations
-
-Rivals sharpen the theory. At minimum, include one strong rival that could plausibly explain the same Y.
-
-### Step 7: Derive Observable Implications
-
-Observable implications are the bridge between theory and evidence. They say what should be seen if the mechanism is true.
-
-Examples:
-
-- If threat perception is the mediator, documents should show threat assessment changing before policy change.
-- If domestic coalition pressure is the mechanism, lobbying or legislative pressure should precede policy shift.
-- If institutional monitoring matters, compliance should improve after monitoring rules become more precise, not merely after treaty signing.
-
-## 8. Counterfactual Thinking
-
-Causal inference depends on asking what would likely have happened if X had been absent or different. In case studies this appears as a disciplined "thought experiment."
-
-### Use Counterfactuals To Ask
-
-- If X had not occurred, would Y still have occurred?
-- If X had been weaker/stronger, would Y have changed in degree?
-- If the rival cause R had been absent, would Y still be explained?
-- Which nearby case or period approximates the counterfactual comparison?
-
-### Good Counterfactuals
-
-- change only one key factor as much as possible;
-- remain historically plausible;
-- use a close comparison case or period;
-- explain why alternative outcomes would follow;
-- do not become pure speculation.
-
-## 9. Comparability In Causal Analysis
-
-Comparison is meaningful only when cases are comparable for the purpose of the causal claim.
-
-### Causal Comparability Means
-
-- the cases share enough background conditions to make the contrast interpretable;
-- the dependent variable differs or changes in a way that needs explanation;
-- key confounders are controlled by design or reasoning;
-- the proposed mechanism can plausibly operate in all compared cases;
-- evidence is available for both positive and negative cases.
-
-### Comparison Strategies
-
-| Strategy | Use When | Risk |
+| Route | What It Does | When Useful |
 |---|---|---|
-| Same case over time | Explaining policy change, crisis turning point, institutional shift | Other events may change at the same time |
-| Most-similar cases | Cases are similar except for X and Y | Hidden differences may still matter |
-| Most-different cases | Cases differ broadly but share X and Y | Mechanism may not be the same |
-| Positive-negative comparison | One case has Y, another does not | Negative case evidence is often thin |
-| Within-case process tracing | Mechanism is more important than broad generalization | Can become narrative if not tied to observable implications |
+| 构建反事实 | Shows that Y would differ if X were absent/different. | Case studies, close comparisons, policy-change analysis. |
+| 追踪因果机制 | Shows how X generates Y through a process. | Mechanism-heavy IR explanations, process tracing, theory building. |
 
-## 10. From Theory To Hypothesis
+The strongest designs often use both.
 
-A hypothesis is a testable causal proposition derived from the explanation. It should be more precise than a viewpoint and less abstract than a theory.
+## 5. Counterfactual Construction
 
-### Hypothesis Components
+Counterfactual analysis asks: if the cause had not existed, would the outcome still have occurred?
 
-| Component | Requirement |
+### Core Logic
+
+```text
+Observed world:        X occurs -> Y occurs
+Counterfactual world:  X absent/different -> would Y still occur?
+```
+
+If Y would still occur under the counterfactual, X is not a convincing cause. If Y would plausibly change, X has causal relevance.
+
+### The Fundamental Difficulty
+
+The same case cannot be observed both with X and without X. Therefore the researcher needs a substitute comparison:
+
+- same case at another time;
+- a similar case;
+- a carefully constructed thought experiment;
+- a critical turning point where a small change plausibly alters X.
+
+### Causal Comparability
+
+The book stresses causal comparability: the comparison must be meaningful for the causal claim.
+
+A counterfactual or comparison is stronger when:
+
+- the real case and comparison case are similar on major background conditions;
+- the main difference is X or a small event affecting X;
+- other relevant variables are held stable or their changes are explicitly discussed;
+- the counterfactual is historically plausible;
+- the counterfactual generates testable implications.
+
+### Practical Counterfactual Template
+
+| Item | Fill In |
 |---|---|
-| X | Clear independent variable |
-| Y | Clear dependent variable |
-| Direction | stronger/weaker, more/less likely, increase/decrease |
-| Scope | where and when it applies |
-| Mechanism | short causal reason |
-| Evidence | observable implication or test condition |
+| Observed outcome Y | |
+| Proposed cause X | |
+| Counterfactual change | If X had been absent/weaker/stronger... |
+| Expected alternative Y | |
+| Why this is plausible | |
+| What else might change | |
+| Evidence that can test the counterfactual | |
 
-### Strong Hypothesis Forms
+## 6. Mechanism Construction
 
-```text
-H1: Under S, the stronger X is, the more likely Y becomes, because M.
-H2: When S is absent, the effect of X on Y weakens or disappears.
-H3: If mechanism M is correct, we should observe O1 before O2, followed by O3.
-H4: Compared with cases lacking X, cases with X should show Y through the specific mechanism M.
-```
+Mechanism construction explains why and how the cause produces the outcome.
 
-### Weak Hypothesis Forms To Revise
+### When Mechanism Is Especially Necessary
 
-| Weak Form | Problem | Better Form |
-|---|---|---|
-| "International organizations matter." | No X, Y, direction, or evidence | "When an organization has monitoring authority, member compliance is more likely because information asymmetry decreases." |
-| "Power affects foreign policy." | Too broad | "When perceived relative power declines, leaders are more likely to pursue alliance reinforcement because bargaining uncertainty rises." |
-| "Identity explains cooperation." | Concept too vague | "When elites define another state as part of the same security community, they are more likely to accept costly cooperation because defection is interpreted as less likely." |
-| "Sanctions cause resistance." | Direction and mechanism underspecified | "When sanctions threaten regime survival, targeted governments are more likely to mobilize nationalist resistance because concession becomes domestically costly." |
+Use mechanism construction when:
 
-## 11. Main And Rival Hypotheses
+- the case outcome is puzzling and not explained by broad correlation;
+- the researcher needs to show why X actually generated Y;
+- different mechanisms could connect the same X and Y;
+- the project is a qualitative case study or comparative process tracing.
 
-Do not only write a favorite hypothesis. Pair it with rivals.
+### Mechanism Requirements
 
-| Relationship | Meaning | Example |
-|---|---|---|
-| Direct rival | R explains Y instead of X | Domestic politics, not external threat, explains policy change |
-| Conditional rival | X matters only under condition S | Institutions matter only when enforcement is credible |
-| Mechanism rival | X affects Y, but through a different path | Sanctions work through elite splits, not economic pain |
-| Scope rival | Explanation works in one domain but not another | Norms matter in humanitarian issues but not core security issues |
-| Null rival | X has no meaningful effect | Observed change is due to background trend or chance |
+A mechanism should specify:
 
-### Rival Explanation Inventory
+- **context**: the situation in which the mechanism operates;
+- **entities**: actors, institutions, groups, organizations, rules, resources;
+- **attributes**: properties that make an entity capable of a certain activity;
+- **activities**: actions, choices, interactions, signals, constraints;
+- **sequence**: the order in which activities generate the next step;
+- **productive continuity**: why one step triggers or enables the next;
+- **outcome**: how the process produces Y.
 
-Use this list to avoid a narrow theory section:
+### Mechanism Is Not A Timeline
 
-- power distribution;
-- threat perception;
-- economic interdependence;
-- domestic regime type;
-- elite coalition and bureaucratic politics;
-- leader belief or misperception;
-- ideology, identity, or norm;
-- institutional design and enforcement;
-- international law and legitimacy;
-- geography and regional security environment;
-- historical path dependence;
-- technological change;
-- external shock or crisis.
+A sequence of events is not automatically a mechanism. A mechanism must show generative links.
 
-## 12. Observable Implications
-
-Hypotheses become testable through observable implications.
-
-### Three Kinds
-
-| Kind | Question | Example |
-|---|---|---|
-| Pattern implication | What cross-case or time pattern should appear? | Higher monitoring precision should correlate with higher compliance |
-| Sequence implication | What should happen first, second, third? | Threat assessment shifts before alliance policy changes |
-| Trace implication | What documentary or behavioral trace should exist? | Internal memoranda discuss credibility concerns before signaling changes |
-
-### Evidence Chain
-
-For each hypothesis, ask:
-
-1. What must be true before X?
-2. What should happen immediately after X?
-3. What should appear inside the mechanism?
-4. What evidence would show Y was produced by this mechanism rather than by R?
-5. What evidence would make the hypothesis fail?
-
-## 13. Modification Of Hypotheses
-
-Revise hypotheses when they are too vague, too broad, circular, untestable, or inconsistent with the mechanism.
-
-### Revision Rules
-
-- Add a dependent variable if the statement only names a topic.
-- Add direction if the statement only says "related to."
-- Add scope if the claim is universal.
-- Add mechanism if the claim jumps from X to Y.
-- Add observable implications if the claim cannot be tested.
-- Remove tautology if X already contains Y.
-- Split one large claim into several smaller hypotheses if multiple mechanisms are mixed.
-
-### Before And After
+Weak:
 
 ```text
-Before: Great-power competition affects international organizations.
-After: When great-power competition intensifies, international organizations are less likely to reach binding decisions in security-related issue areas, because member states become less willing to reveal information and delegate authority.
+Event A happened, then event B happened, then event C happened.
 ```
+
+Stronger:
 
 ```text
-Before: Nationalism leads to conflict.
-After: When ruling elites frame territorial disputes as tests of national dignity, compromise becomes less likely because concession raises domestic audience costs.
+Event A changed actor B's incentives, which made strategy C more attractive; strategy C altered the bargaining relation and produced outcome Y.
 ```
 
-## 14. Common Inference Risks
+### Mechanism Chain Template
 
-| Risk | Description | Fix |
+```text
+Context:
+Entity 1:
+Entity 1's relevant attribute:
+Activity 1:
+How Activity 1 activates Entity 2 or changes its condition:
+Activity 2:
+Intermediate result:
+Final outcome Y:
+Evidence for each link:
+```
+
+### Mechanism Diagram
+
+```mermaid
+flowchart LR
+  Context["情境 / context"] --> E1["实体1: actor/institution/resource"]
+  E1 --> A1["活动1: choice/signal/constraint"]
+  A1 --> E2["实体2状态改变"]
+  E2 --> A2["活动2: interaction/response"]
+  A2 --> Y["结果Y"]
+```
+
+## 7. Case-Study Inference Methods
+
+The chapter links different causal understandings with case-study methods.
+
+| Causal Understanding | Case-Study Method | Use |
 |---|---|---|
-| Circular explanation | X is defined by Y | Define X independently of the outcome |
-| Endogeneity | X and Y influence each other | Clarify timing; consider feedback loops |
-| Omitted variable | A third factor explains both X and Y | Add rival/confounder and control strategy |
-| Selection bias | Cases selected only because Y occurred | Include negative or comparison cases |
-| Over-control | Controlling for mediator removes the mechanism | Distinguish mediator from confounder |
-| Collider bias | Conditioning on a common effect creates false relation | Avoid controlling for colliders |
-| Mechanism gap | Theory jumps from X to Y | Add actor-level steps |
-| Conceptual stretching | Claim applies beyond its valid scope | Narrow scope conditions |
-| Evidence cherry-picking | Only supportive facts are used | Specify disconfirming evidence |
+| 规律性因果 | within-case comparison, congruence analysis, method of agreement, method of difference, most-similar comparison | Identify patterned association and variation. |
+| 反事实因果 | controlled comparison, counterfactual case, "thought experiment" | Estimate what would happen if X were absent/different. |
+| 因果机制 | comparative process tracing, within-case process tracing | Show the generative process from X to Y. |
 
-## 15. Output Patterns
+Use the method that matches the user's causal claim. Do not use process tracing if the output only lists events. Do not use comparison if cases are not causally comparable.
 
-### A. Causal Explanation Table
+## 8. From Causal Explanation To Hypothesis
+
+The book treats causal hypothesis as the bridge between theory/causal explanation and empirical facts.
+
+### Research Hypothesis Vs Assumption
+
+| Item | Meaning |
+|---|---|
+| Research hypothesis | An untested answer to the research question; must face empirical evidence. |
+| Assumption | A premise the researcher temporarily treats as true to build an argument. |
+
+Do not write an assumption as if it were a hypothesis.
+
+### General Requirements For A Research Hypothesis
+
+A good research hypothesis should:
+
+1. be clear and specific;
+2. have empirical content;
+3. be testable by experience facts;
+4. avoid tautology;
+5. connect to a broader theory or explanation.
+
+The core requirement is testability.
+
+### Special Requirements For A Causal Hypothesis
+
+A causal hypothesis must also:
+
+- identify the relevant variables;
+- specify the causal relation between variables;
+- indicate direction or condition where possible;
+- clarify the mechanism or process by which X leads to Y;
+- produce expectations that can be checked by evidence.
+
+### Causal Hypothesis Formula
+
+```text
+H1: If / when X changes in direction D, Y is more/less likely to occur, because mechanism M operates under condition C.
+```
+
+Use "condition C" or "限界条件" only when the book's logic requires an application boundary. Do not force every hypothesis to include a scope condition if it is not yet known; instead mark it as "待确定".
+
+## 9. Methods For Establishing Causal Hypotheses
+
+The chapter discusses three main ways of generating hypotheses.
+
+### A. Empirical Induction
+
+Start with observed empirical facts, identify patterns, then propose a causal hypothesis.
+
+```text
+observe cases
+-> find empirical pattern
+-> infer possible cause
+-> formulate causal hypothesis
+-> test with other evidence
+```
+
+Use when the user has cases, archives, event data, or recurring observations but no mature theory yet.
+
+Risk: simple enumeration can produce fragile generalizations. The pattern must be tested beyond the cases that generated it.
+
+### B. Logical Deduction
+
+Start from theoretical assumptions and derive hypotheses.
+
+```text
+theory / assumptions
+-> logical implication
+-> causal hypothesis
+-> empirical test
+```
+
+Use when the user is applying a known theoretical paradigm such as realism, liberal institutionalism, constructivism, domestic politics, or bargaining theory.
+
+Risk: if assumptions are unrealistic or hidden, the hypothesis may look elegant but fail empirically.
+
+### C. Abductive Analysis
+
+Start from surprising facts that existing theories do not explain, then search for a new causal hypothesis.
+
+```text
+surprising fact
+-> why is this surprising?
+-> possible explanatory idea
+-> causal hypothesis
+-> return to evidence
+```
+
+Use when the user's research puzzle is an anomaly.
+
+The book links abduction with moving between empirical facts and theory. It also discusses retroductive thinking associated with uncovering structures and mechanisms behind observable events.
+
+### Abduction / Retroduction Template
+
+| Step | Question |
+|---|---|
+| Surprising fact | What happened that existing theory did not expect? |
+| Existing expectation | What would dominant theory predict? |
+| Gap | Why does the fact conflict with the theory? |
+| Possible mechanism | What hidden structure or mechanism could generate the fact? |
+| New hypothesis | What causal claim follows? |
+| Evidence to seek | What traces would exist if the mechanism were real? |
+
+## 10. Revising Causal Hypotheses
+
+The book strongly warns against forcing facts to fit a favored hypothesis. If evidence does not match the hypothesis, revise honestly.
+
+### When To Revise
+
+Revise a hypothesis when:
+
+- operationalization or measurement makes the hypothesis impossible to test;
+- the evidence is real and directly conflicts with the hypothesis;
+- the hypothesis is too broad for the observed facts;
+- the mechanism cannot be found;
+- the explanation survives only by ignoring anomalies.
+
+### First Strategy: Transformation By Scope Condition
+
+This is where the book explicitly uses **限界条件 / scope condition**.
+
+When some evidence fits the hypothesis and other evidence conflicts with it:
+
+1. compare fitting cases and anomalous cases;
+2. identify the key difference between them;
+3. turn that difference into a scope condition;
+4. clarify the hypothesis's applicable range.
+
+This strategy does not directly explain away the anomaly. It narrows the claim's range.
+
+Template:
+
+```text
+Original H: X -> Y.
+Empirical anomaly: X appears but Y does not, or Y appears without X.
+Difference between expected and anomalous cases: C.
+Revised H: X -> Y only when C is present / absent.
+Scope condition: C.
+```
+
+### Second Strategy: Dissolution By New Explanation
+
+When the anomaly challenges the explanation itself, revise the causal explanation so the anomaly becomes part of a new theory.
+
+Template:
+
+```text
+Original H: X -> Y.
+Anomaly: observed facts contradict H.
+Revision: add or replace causal variable/mechanism.
+New H: X plus Z, or Z through mechanism M, explains Y.
+```
+
+### Avoid Ad Hoc Rescue
+
+Do not add arbitrary exceptions just to protect a theory. A scope condition is legitimate only when it identifies a meaningful difference that can be justified and tested.
+
+## 11. What To Do With "Rival Cause R"
+
+The book does not present a formal `Rival cause R` element. In this skill, use `R` only as a practical shorthand for:
+
+- other variables that may produce Y;
+- confounders that may create a spurious relation;
+- alternative mechanisms connecting X and Y;
+- empirical anomalies that the main explanation cannot handle;
+- a competing theory from the literature.
+
+In Chinese output, prefer:
+
+```text
+替代解释 / 其他可能原因 / 竞争性解释
+```
+
+instead of over-presenting `R` as a book term.
+
+### Rival/Alternative Explanation Checklist
+
+Ask:
+
+- Could another cause produce the same Y?
+- Could another variable produce both X and Y?
+- Could the same X work through a different mechanism?
+- Are there cases where X appears but Y does not?
+- Are there cases where Y appears without X?
+- What evidence would distinguish the main explanation from the alternative?
+
+## 12. Agent Output Patterns
+
+### A. Book-Aligned Causal Explanation Table
 
 | Element | Draft |
 |---|---|
-| Research puzzle | |
 | Research question | |
-| Outcome Y | |
-| Variation in Y | |
-| Cause X | |
-| Mechanism M | |
-| Scope condition S | |
-| Rival explanation R | |
-| Observable implication O | |
-| Main inference risk | |
+| Outcome / 因变量 Y | |
+| Proposed cause / 自变量 X | |
+| Temporal order | |
+| Correlation / observed relation | |
+| Possible spurious relation / 混杂因素 | |
+| Counterfactual claim | |
+| Causal mechanism | |
+| Scope condition / 限界条件, if needed | |
+| Alternative explanation / 其他可能原因 | |
+| Testable hypothesis | |
+| Evidence needed | |
 
-### B. Mechanism Chain
+### B. Mechanism-First Output
 
 ```text
-X:
-Actor affected:
-Step 1:
-Step 2:
-Step 3:
-Outcome Y:
-Scope:
-Observable traces:
-Rival explanation:
+情境:
+实体与属性:
+活动1:
+活动2:
+生成性连接:
+结果Y:
+可检验证据:
+可能的替代解释:
 ```
 
-### C. Hypothesis Set
+### C. Hypothesis Revision Output
 
-| Type | Hypothesis | Observable Implication | Rival |
-|---|---|---|---|
-| Main H1 | | | |
-| Mechanism H2 | | | |
-| Scope H3 | | | |
-| Rival H4 | | | |
+| Item | Revision |
+|---|---|
+| Original hypothesis | |
+| Problem | operationalization issue / empirical anomaly / circularity / overbroad scope |
+| Evidence creating the problem | |
+| Transformation strategy | add scope condition |
+| Dissolution strategy | revise causal explanation |
+| Revised hypothesis | |
+| New evidence needed | |
 
-### D. Causal Diagram Prompt
+## 13. Response Rule
 
-When asked to help the user, produce a diagram and then explain it:
+When using this file:
 
-```mermaid
-flowchart LR
-  X["X: proposed cause"] --> M["M: causal mechanism"]
-  M --> Y["Y: outcome"]
-  S["S: scope condition"] -.conditions.-> M
-  C["C: confounder"] --> X
-  C --> Y
-  R["R: rival explanation"] --> Y
-```
-
-## 16. Response Rule For This Skill
-
-When the user asks for causal explanation or hypotheses:
-
-1. Start from Y and the variation to explain.
-2. Ask for or infer X only after Y is clear.
-3. Write the mechanism as a chain, not as a label.
-4. Add scope conditions and rivals.
-5. Convert the mechanism into hypotheses.
-6. Add observable implications and disconfirming evidence.
-7. Warn when the claim is descriptive, circular, unfalsifiable, or overbroad.
+1. Do not present `Scope condition S` and `Rival cause R` as equally direct book terms.
+2. Say that `scope condition / 限界条件` is in the book, especially in hypothesis revision and application-boundary logic.
+3. Say that `Rival cause R` is this skill's operational shorthand for the book's broader concern with excluding spurious relations, other factors, and empirical anomalies.
+4. Build causal explanations in the book's order: variable relation -> principles -> counterfactual/mechanism -> hypothesis -> revision.
+5. Prefer Chinese terms for user-facing answers: 自变量、因变量、中介变量、混杂变量、撞子变量、因果机制、反事实、限界条件、经验反常、转化策略、消解策略.
 
