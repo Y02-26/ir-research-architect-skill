@@ -109,6 +109,17 @@ Do not confuse a causal diagram with a causal mechanism. A diagram maps variable
 | Excluding spurious association | Could another factor, measurement error, or selection create the relation? |
 | Counterfactual and/or mechanism | Can the design show dependence or generative process? |
 
+Diagnostic sequence:
+
+1. Define Y and its variation.
+2. Identify candidate X.
+3. Check temporal order.
+4. Check observed relation.
+5. Identify confounders and alternative explanations.
+6. Build a counterfactual comparison or a causal mechanism.
+7. Convert the explanation into hypotheses.
+8. Name evidence that would weaken the claim.
+
 ## 5. Counterfactual Reasoning
 
 Counterfactual reasoning asks what would have happened if X had not occurred or had changed.
@@ -136,6 +147,14 @@ Counterfactual template:
 | Expected alternative outcome | |
 | Why plausible | |
 | Evidence to assess it | |
+
+Common counterfactual errors:
+
+- Changing too many background conditions at once.
+- Choosing an impossible alternative history.
+- Treating speculation as evidence.
+- Using a comparison case that differs on many relevant variables.
+- Failing to say what observable evidence could still assess the counterfactual.
 
 ## 6. Causal Mechanism
 
@@ -165,6 +184,23 @@ Outcome Y:
 Evidence for each link:
 ```
 
+Mechanism quality tests:
+
+- Entity test: Does each step identify an actor, institution, rule, resource, or organization?
+- Activity test: Does each step include action or interaction, not just a noun?
+- Sequence test: Is the order clear?
+- Generative test: Does each step explain why the next step follows?
+- Trace test: Could documents, behavior, interviews, process evidence, or data reveal the step?
+- Rival test: Would a different mechanism leave different traces?
+
+Common mechanism errors:
+
+- Listing events without explaining the generative link.
+- Calling a variable a mechanism.
+- Using vague words such as "influence", "pressure", or "impact" without process.
+- Skipping from macro structure directly to outcome.
+- Assuming the outcome inside the mechanism.
+
 ## 7. Building Causal Hypotheses
 
 A research hypothesis is an untested answer to the research question. It is not the same as an assumption.
@@ -184,6 +220,14 @@ H1: When X increases/decreases or is present/absent, Y becomes more/less likely,
 ```
 
 Do not force a scope condition if it is not known. Mark it as "to be determined" when necessary.
+
+Hypothesis strength ladder:
+
+| Weak | Better | Strong |
+|---|---|---|
+| X matters. | X increases the likelihood of Y. | Under condition C, X increases the likelihood of Y because mechanism M changes actor incentives. |
+| Institutions affect cooperation. | Stronger monitoring increases compliance. | When monitoring authority is delegated to an institution, compliance increases because information asymmetry and opportunism decline. |
+| Threat causes alliance. | Higher perceived threat makes alliance more likely. | When leaders perceive an external threat as urgent and credible, alliance formation becomes more likely because expected security benefits outweigh autonomy costs. |
 
 ## 8. Generating Hypotheses
 
@@ -232,6 +276,21 @@ New H: Z or X+Z produces Y through mechanism M.
 ```
 
 Avoid ad hoc rescue. A scope condition is legitimate only when it identifies a meaningful, testable boundary.
+
+Revision diagnostics:
+
+- Is the problem conceptual, because X or Y is poorly defined?
+- Is the problem operational, because the indicator cannot measure the concept?
+- Is the problem empirical, because evidence contradicts the hypothesis?
+- Is the problem theoretical, because the mechanism is wrong or incomplete?
+- Is the anomaly a reason to narrow scope or rebuild the explanation?
+
+Ad hoc warning signs:
+
+- The new condition is added only after seeing the evidence.
+- The condition cannot be independently measured.
+- The revised claim explains every possible outcome.
+- The revision protects the conclusion rather than improving the theory.
 
 ## Output Table
 

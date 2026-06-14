@@ -27,6 +27,19 @@ def scaffold(topic: str) -> str:
 | Available evidence | |
 | Research value | |
 
+Diagnostic prompts:
+
+- What is the observable phenomenon, not only the broad field?
+- What varies across cases, actors, or time?
+- Why is this pattern surprising relative to theory, expectation, or another case?
+- What evidence could realistically be collected?
+
+Common mistakes:
+
+- Treating a country relation, region, or issue area as a research question.
+- Starting from a preferred conclusion rather than an observed puzzle.
+- Making the scope so broad that no evidence strategy can cover it.
+
 ## 2. Research Question
 
 | Item | Draft |
@@ -38,6 +51,18 @@ def scaffold(topic: str) -> str:
 | Question type | why / how / under what conditions / with what effect |
 | Answerability evidence | |
 
+Question repair pattern:
+
+```text
+Why/how/under what conditions does [X or mechanism] affect [Y] in [cases/time]?
+```
+
+Common mistakes:
+
+- Asking several questions without one main Y.
+- Asking a normative policy question when the project needs explanation.
+- Asking a question whose answer is already assumed in the wording.
+
 ## 3. Literature-Review Design
 
 Use only user-provided sources, abstracts, bibliographies, excerpts, or reading notes. Do not invent citations.
@@ -45,6 +70,13 @@ Use only user-provided sources, abstracts, bibliographies, excerpts, or reading 
 | Provided source | Question addressed | Core explanation | Method/evidence | Scope | Limitation | Use in this project |
 |---|---|---|---|---|---|---|
 | | | | | | | |
+
+Literature-review design prompts:
+
+- Which explanations compete with each other?
+- Which sources share a mechanism, assumption, or method?
+- Which gap is conceptual, causal, empirical, methodological, or scope-related?
+- How does this project build on strengths rather than only criticize limits?
 
 ## 4. Causal Explanation
 
@@ -66,6 +98,14 @@ That behavior changes an interaction pattern, institution, or resource distribut
 The changed condition produces Y.
 ```
 
+Mechanism diagnostics:
+
+- Who are the actors or entities in each step?
+- What changes: beliefs, incentives, resources, information, institutions, or constraints?
+- Why does each step generate the next step?
+- What evidence would we observe if this step occurred?
+- What rival mechanism would predict a different trace?
+
 ## 5. Hypotheses
 
 | Hypothesis | Direction/condition | Mechanism | Observable implication | Possible disconfirming evidence |
@@ -73,6 +113,13 @@ The changed condition produces Y.
 | H1 | | | | |
 | H2 | | | | |
 | Alternative hypothesis | | | | |
+
+Hypothesis repair pattern:
+
+```text
+H1: When [scope condition], higher/lower [X] increases/decreases [Y] because
+[mechanism]. If this is correct, we should observe [observable implication].
+```
 
 ## 6. Variables
 
@@ -84,17 +131,39 @@ The changed condition produces Y.
 | C | Confounder/control | | | | |
 | D | Collider, if relevant | Common result of X and Y in the book's Figure 5.5 pattern | Do not control casually | | |
 
+Variable diagnostics:
+
+- Is X measured before Y?
+- Is M a mechanism step rather than a control variable?
+- Is any proposed control actually a mediator or collider?
+- Does each variable have a conceptual definition before indicators are chosen?
+
 ## 7. Operationalization And Measurement
 
 | Concept | Definition | Dimensions | Indicators | Data source | Coding rule | Validity risk | Reliability check |
 |---|---|---|---|---|---|---|---|
 | | | | | | | | |
 
+Operationalization diagnostics:
+
+- Does the indicator measure the concept or only a convenient proxy?
+- Would another coder apply the rule in the same way?
+- Is the measure comparable across cases and time?
+- What missing data or source bias could change the conclusion?
+
 ## 8. Hypothesis Testing
 
 | Hypothesis | Observable implication | Evidence/data | Method | Alternative explanation | Support criterion | Disconfirming evidence |
 |---|---|---|---|---|---|---|
 | | | | | | | |
+
+Testing diagnostics:
+
+- Does the method match the hypothesis?
+- What would support the mechanism, not only the X-Y association?
+- What evidence would weaken the claim?
+- How will the design address alternative explanations?
+- Are cases selected because they are theoretically useful, not merely familiar?
 
 ## 9. Thesis Structure
 
@@ -104,6 +173,15 @@ The changed condition produces Y.
 4. Research design: cases/data, variables, operationalization, method.
 5. Empirical analysis: evidence organized around hypotheses or mechanism steps.
 6. Conclusion: answer the question, state contribution, limits, implications.
+
+Chapter-level checks:
+
+- Introduction creates the puzzle and states the answer.
+- Literature review maps debates and opens the gap.
+- Theory turns the gap into a mechanism and hypotheses.
+- Method explains how evidence can evaluate the hypotheses.
+- Empirical chapters test claims rather than only narrate events.
+- Conclusion separates support, uncertainty, limits, and implications.
 """
 
 
@@ -127,6 +205,29 @@ Topic: {topic}
 - [ ] Method and evidence match the hypothesis.
 - [ ] The design names what evidence would weaken or falsify the hypothesis.
 - [ ] Each thesis chapter serves the research question.
+
+## Common Failure Signals
+
+- [ ] The draft has a topic but no puzzle.
+- [ ] The research question contains several dependent variables.
+- [ ] The literature review lists authors instead of explanation families.
+- [ ] The mechanism jumps from X to Y without actors, activities, or sequence.
+- [ ] Hypotheses are too vague to be wrong.
+- [ ] Indicators are chosen before concepts are defined.
+- [ ] Controls are added without checking mediators or colliders.
+- [ ] Evidence is organized only by chronology.
+- [ ] The conclusion says "prove" when the design only supports a claim.
+
+## Repair Moves
+
+- Narrow the topic by actor, outcome, time, place, and variation.
+- Rewrite the question around one main Y.
+- Group literature by explanation type, mechanism, method, evidence, or scope.
+- Add a stepwise mechanism with observable implications.
+- Rewrite hypotheses with direction, condition, mechanism, and failure evidence.
+- Build an operationalization table before collecting data.
+- Draw a causal diagram before deciding controls.
+- Organize empirical sections by hypothesis or mechanism step.
 """
 
 

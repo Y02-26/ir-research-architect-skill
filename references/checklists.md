@@ -32,6 +32,36 @@ Use these for fast critique, grading, or revision.
 - Hypothesis testing: specifies evidence, method, case/sample logic, controls, alternatives, and disconfirming evidence.
 - Thesis structure: each chapter serves the research question.
 
+## Mentor-Style Diagnosis Checklist
+
+Use this when the user gives a draft and asks whether it is "good enough".
+
+| Symptom | Likely problem | First repair |
+|---|---|---|
+| The draft sounds important but vague. | Topic is not narrowed into a puzzle. | Specify actor, outcome, time, place, and variation. |
+| The question asks many things at once. | No main dependent variable. | Choose one main Y and move others to context or mechanisms. |
+| Literature review is long but flat. | Sources are summarized, not organized. | Group by explanation type, method, evidence, or scope. |
+| Theory says X affects Y but not how. | Missing mechanism. | Add actors, incentives/beliefs/resources, actions, and sequence. |
+| Hypothesis cannot be wrong. | Tautology or vague wording. | Add direction, condition, observable implication, and failure evidence. |
+| Variables are named but not defined. | Conceptualization is missing. | Define each concept before choosing indicators. |
+| Method section lists tools. | No testing logic. | Link each method to a hypothesis or mechanism step. |
+| Evidence is interesting but scattered. | Empirical chapter lacks inferential structure. | Organize around claims, not chronology alone. |
+| Conclusion is ambitious. | Claim exceeds evidence. | Separate support, uncertainty, limits, and future research. |
+
+## Common Red Flags
+
+- "This paper studies..." without a question.
+- "There are few studies..." without explaining the theoretical problem.
+- "A has an important influence on B" without defining influence.
+- "This proves..." when the evidence only supports or is consistent with a
+  claim.
+- Control variables are added without a causal diagram.
+- Colliders are controlled as if every extra variable were harmless.
+- The literature review invents citations or uses sources the user did not
+  provide.
+- The proposal promises both a full theory, full history, full dataset, and
+  full policy solution in one small project.
+
 ## Causal Explanation Checklist
 
 - Y is defined before choosing a favorite explanation.

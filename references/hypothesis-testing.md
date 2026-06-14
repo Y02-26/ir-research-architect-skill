@@ -14,6 +14,8 @@ Ask:
 - What alternative explanation could produce the same outcome?
 - What cases or data can distinguish between them?
 
+Do not ask only "what supports my hypothesis?" Ask "what would I expect to see if my hypothesis is wrong?"
+
 ## Evidence Chain
 
 | Link | Question |
@@ -40,6 +42,15 @@ Common strategies:
 
 Process tracing should test mechanism steps. It should not become a chronological narrative.
 
+Process-tracing prompts:
+
+- What must have happened before X for the mechanism to start?
+- What first observable trace should X leave?
+- Which actor changed belief, incentive, information, capability, or constraint?
+- What document, statement, decision, or behavior would reveal that change?
+- What should happen next if the mechanism is operating?
+- What trace would the alternative mechanism leave instead?
+
 ## Quantitative Testing
 
 Use quantitative testing when:
@@ -50,6 +61,16 @@ Use quantitative testing when:
 - controls can be theoretically justified.
 
 Quantitative significance does not by itself prove the mechanism. If the claim is causal, connect statistical results to mechanism and alternative explanations.
+
+Quantitative design prompts:
+
+- What is the unit of analysis?
+- What is the time period?
+- How is Y measured?
+- How is X measured independently from Y?
+- Which confounders are theoretically necessary?
+- Are fixed effects, lagged variables, or alternative specifications needed?
+- What robustness checks would address measurement or model dependence?
 
 ## Variable Control
 
@@ -72,6 +93,14 @@ Control variables should be theoretically justified.
 | Same case over time | Explaining change. | Many things may change at once. |
 | Crucial case | Testing a theory under favorable or difficult conditions. | Generalization is limited. |
 
+Case-selection warnings:
+
+- Do not select cases only because the outcome occurred.
+- Do not compare cases that are similar only superficially.
+- Do not use a famous case if evidence access is poor.
+- Do not call a case "typical" without explaining typical of what population.
+- Do not generalize from a deviant case without saying why it is theoretically useful.
+
 ## Testing Plan Table
 
 | Hypothesis | Observable implication | Evidence/data | Method | Alternative explanation | Support criterion | Disconfirming evidence |
@@ -88,3 +117,6 @@ Control variables should be theoretically justified.
 - Using a control variable without theoretical reason.
 - Equating correlation with mechanism.
 - Claiming proof when the evidence only supports plausibility.
+- Ignoring uncertainty in source reliability.
+- Treating absence of evidence as evidence of absence without checking source coverage.
+- Explaining the case twice: once with the main hypothesis and again with an incompatible alternative.
