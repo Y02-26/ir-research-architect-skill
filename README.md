@@ -47,7 +47,7 @@ git clone https://github.com/Y02-26/ir-research-architect-skill
 ## 示例用法
 
 ```text
-Use IR Research Architect to turn "US-China technology competition" into a feasible thesis topic.
+Use IR Research Architect to turn "external pressure and policy change" into a feasible thesis topic.
 ```
 
 ```text
@@ -55,7 +55,7 @@ Use IR Research Architect to revise my hypothesis and list alternative explanati
 ```
 
 ```text
-用 IR Research Architect 帮我把“中美技术竞争”改成一个可以写论文的研究问题。
+用 IR Research Architect 帮我把“外部压力与政策变化”改成一个可以写论文的研究问题。
 ```
 
 ## 它能帮你做什么

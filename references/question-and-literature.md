@@ -17,9 +17,9 @@ Look for:
 - mismatch between theory and evidence;
 - an important phenomenon with unclear mechanism.
 
-Weak: "I study great-power competition."
+Weak: "I study external pressure and policy change."
 
-Better: "Why do some middle powers align with US technology restrictions while others hedge despite similar security ties?"
+Better: "Under a similar external condition, why does observable outcome Y vary across cases or over time?"
 
 Puzzle diagnostics:
 
@@ -56,6 +56,8 @@ Question repair patterns:
 | How should China improve diplomacy? | Normative policy advice. | What factors explain variation in China's crisis-communication strategies across cases? |
 | Does power matter? | Too broad and obvious. | Under what conditions does relative power change alliance bargaining outcomes? |
 | Study the Belt and Road. | Topic, not question. | Why do some host-country infrastructure projects face stronger local resistance than others? |
+
+Do not copy these question frames into unrelated topics. They show repair operations, not preferred countries, issues, outcomes, or theories.
 
 ## Research Question Template
 

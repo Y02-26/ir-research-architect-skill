@@ -6,7 +6,7 @@ This is a paraphrased, agent-oriented synthesis of the source chapter on constru
 
 ## Source Alignment Notes
 
-| Element | Source alignment | How to use |
+| Element | Source status | How to use |
 |---|---|---|
 | Causal relation | Directly source-derived | Start with cause, outcome, and relation. |
 | Regularity causation | Directly source-derived | Use for patterns, covariation, and probability/regularity claims. |

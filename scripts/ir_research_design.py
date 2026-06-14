@@ -45,6 +45,8 @@ Diagnostic prompts:
 | Question type | why / how / under what conditions / with what effect |
 | Answerability evidence | |
 
+Before naming a cause, theory family, country, or strategic posture, list multiple neutral possible outcomes Y.
+
 ## 3. Literature-Review Design
 
 Use only user-provided sources, abstracts, bibliographies, excerpts, or reading notes. Do not invent citations.
@@ -133,18 +135,7 @@ Topic: {topic}
 - [ ] Method and evidence match the hypothesis.
 - [ ] The design names what evidence would weaken or falsify the hypothesis.
 - [ ] Each thesis chapter serves the research question.
-
-## Common Failure Signals
-
-- [ ] The draft has a topic but no puzzle.
-- [ ] The research question contains several dependent variables.
-- [ ] The literature review lists authors instead of explanation families.
-- [ ] The mechanism jumps from X to Y without actors, activities, or sequence.
-- [ ] Hypotheses are too vague to be wrong.
-- [ ] Indicators are chosen before concepts are defined.
-- [ ] Controls are added without checking mediators or colliders.
-- [ ] Evidence is organized only by chronology.
-- [ ] The conclusion says "prove" when the design only supports a claim.
+- [ ] Broad-topic conversion offered multiple neutral question families instead of one familiar IR frame.
 """
 
 
@@ -164,30 +155,30 @@ def question(topic: str, lang: str) -> str:
 
 | 可能的 Y | 可观察的变化或差异 | 可能证据 |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| 政策采纳或不采纳 | | |
+| 投票行为 | | |
+| 条约参与 | | |
+| 监管变化 | | |
+| 危机反应 | | |
+| 资源配置 | | |
+| 制度遵守 | | |
+| 公开叙事 | | |
+| 合作强度 | | |
+| 冲突升级或降级 | | |
 
-## 候选研究问题
+## 候选研究问题类型
 
-| 类型 | 研究问题草案 | 还缺什么信息 |
+| 类型 | 中性问题框架 | 还缺什么信息 |
 |---|---|---|
-| Why 问题 | 为什么 [Y] 在 [案例/时间] 中出现差异？ | |
-| How 问题 | [过程/因素] 如何影响 [Y]？ | |
-| 条件问题 | 在什么条件下，[X] 更可能导致 [Y]？ | |
-
-## 诊断问题
-
-- 这个主题现在是研究领域、政策议题，还是已经有明确的研究问题？
-- 你真正想解释的结果是什么？
-- 这个结果是否在国家、组织、事件、时间段或政策领域之间存在差异？
-- 哪个结果最容易找到证据？
-- 选择这个结果后，案例和时间范围应该如何收窄？
+| 差异问题 | 在相似外部条件下，为什么 Y 在不同案例之间不同？ | |
+| 过程问题 | X 通过什么过程产生 Y？ | |
+| 条件问题 | 在什么条件下，X 更可能产生 Y？ | |
+| 时间问题 | 为什么 Y 在某一时间之后发生，而不是之前发生？ | |
+| 比较问题 | 为什么案例 A 与案例 B 呈现不同的 Y？ | |
 
 ## 下一步
 
-先选择一个待解释结果 Y，再讨论自变量 X、因果机制 M、范围条件和假设。不要把其他案例或示例中的机制直接搬到这个主题上。
+先选择一个待解释结果 Y，再讨论自变量 X、因果机制 M、范围条件和假设。不要把其他案例或示例中的问题框架直接搬到这个主题上。
 """
 
     return f"""# From Topic To Research Question
@@ -200,18 +191,34 @@ def question(topic: str, lang: str) -> str:
 
 First identify the outcome to explain: the dependent variable / outcome Y.
 
-## Possible Outcomes
+## Possible Neutral Outcomes
 
 | Possible Y | Observable variation | Possible evidence |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| policy adoption or non-adoption | | |
+| voting behavior | | |
+| treaty participation | | |
+| regulatory change | | |
+| crisis response | | |
+| resource allocation | | |
+| institutional compliance | | |
+| public framing | | |
+| cooperation intensity | | |
+| conflict escalation or de-escalation | | |
+
+## Question Families
+
+| Family | Generic question frame | Missing information |
+|---|---|---|
+| Variation | Under a similar external condition, why does Y vary across cases? | |
+| Process | Through what process does X generate Y? | |
+| Condition | Under what conditions does X produce Y rather than not-Y? | |
+| Timing | Why did Y occur after time T rather than before? | |
+| Comparison | Why did case A and case B produce different values of Y? | |
 
 ## Next Step
 
-Choose one outcome before discussing independent variables or causal mechanisms. Do not reuse mechanisms from other cases.
+Choose one outcome before discussing independent variables or causal mechanisms. Do not reuse question frames or mechanisms from other cases.
 """
 
 
@@ -262,14 +269,14 @@ Use these prompts for light regression testing.
 Prompt:
 
 ```text
-I want to study how the Belt and Road Initiative affects Central Asian states' foreign policies. Help me design a research question.
+External pressure and small-state policy change. Help me design a research question.
 ```
 
 Expected behavior:
 
 - List possible dependent variables/outcomes first.
-- Offer two or three research-question versions.
-- Do not impose a fixed economic-dependence mechanism.
+- Offer several question families: variation, process, condition, timing, and comparison.
+- Do not impose a fixed strategic-choice frame.
 
 ## Mechanism Construction
 
@@ -290,7 +297,7 @@ Expected behavior:
 Prompt:
 
 ```text
-Here is my thesis title: Strategic choices of ASEAN states under great-power competition. What is wrong with it?
+External pressure and small-state policy change. What is wrong with it?
 ```
 
 Expected behavior:

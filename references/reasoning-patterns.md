@@ -31,29 +31,33 @@ Copy the reasoning move, never the substantive mechanism.
 User topic:
 
 ```text
-Great-power competition and Southeast Asia
+External pressure and policy change
 ```
 
 Bad move:
 
 ```text
-Immediately ask: How does great-power competition affect Southeast Asia?
+Immediately ask: How does external pressure affect policy change?
 ```
 
 Problem:
 
-The outcome is vague. "Affect Southeast Asia" does not identify what varies.
+The outcome is vague. "Affect policy change" does not identify what varies.
 
 Better move:
 
 List possible outcomes first:
 
-- alignment choices of specific Southeast Asian states;
-- participation in security exercises;
-- position-taking in UN votes;
-- adoption of digital infrastructure standards;
-- diversification of trade or supply chains;
-- hedging rhetoric in official speeches.
+- policy adoption or non-adoption;
+- voting behavior;
+- treaty participation;
+- regulatory change;
+- crisis response;
+- resource allocation;
+- institutional compliance;
+- public framing;
+- cooperation intensity;
+- conflict escalation or de-escalation.
 
 Then ask which outcome the user wants to explain.
 
@@ -77,6 +81,20 @@ Better researchable variations:
 Reasoning move:
 
 Find variation in occurrence, degree, timing, success/failure, or cross-case difference.
+
+## Pattern 2B: Multiple Question Families
+
+For broad topics, offer several neutral question families before choosing one:
+
+| Family | Generic question frame |
+|---|---|
+| Variation | Under a similar external condition, why does outcome Y vary across cases? |
+| Process | Through what process does factor X generate outcome Y? |
+| Condition | Under what conditions does X produce Y rather than not-Y? |
+| Timing | Why did Y occur after time T rather than before? |
+| Comparison | Why did case A and case B produce different values of Y? |
+
+Do not collapse broad topics into one familiar strategic-choice frame.
 
 ## Pattern 3: Mechanism Must Be Rebuilt
 

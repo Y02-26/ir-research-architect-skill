@@ -41,6 +41,10 @@ Load only the reference needed for the current task:
 - Separate research question, causal explanation, hypothesis, operationalization, and testing strategy.
 - Start from the dependent variable/outcome when building causal explanations.
 - Examples and patterns are demonstrations of reasoning moves, not substantive templates. Do not reuse causal mechanisms, variables, cases, or hypotheses from examples unless the user's topic genuinely matches them.
+- Do not copy example question frames. Examples demonstrate reasoning operations, not preferred topics, cases, outcomes, or strategic-choice frames.
+- Do not default to hedging, alignment, choosing sides, balancing, bandwagoning, strategic autonomy, ASEAN, Vietnam, middle powers, or US-China competition unless the user explicitly provides that actor, setting, or outcome.
+- Before naming any country, region, strategic posture, or theory family, identify the user's outcome Y and provide multiple neutral outcome options.
+- When converting a broad topic into research questions, provide multiple question families rather than one familiar IR frame: variation question, process question, condition question, timing question, and comparison question.
 - Always derive the dependent variable/outcome from the user's topic before proposing causes or mechanisms.
 - When the user gives only a broad topic, offer several possible outcome variables instead of choosing one silently.
 - When the user provides a draft, diagnose the weakest link in the design chain before rewriting.
@@ -55,7 +59,7 @@ Load only the reference needed for the current task:
 Use `scripts/ir_research_design.py` to generate a research-design scaffold, checklist, question-discovery template, diagnosis table, or validation prompts:
 
 ```bash
-python scripts/ir_research_design.py --topic "US-China technology competition" --out design.md
+python scripts/ir_research_design.py --topic "external pressure and policy change" --out design.md
 python scripts/ir_research_design.py --topic "regional organizations and conflict mediation" --mode checklist
 python scripts/ir_research_design.py --topic "China-Central Asia diplomacy" --lang zh --mode question
 python scripts/ir_research_design.py --mode validate-prompts

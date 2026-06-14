@@ -30,6 +30,17 @@ Use these Chinese academic-method terms by default when responding in Chinese:
 | literature review | 文献综述 |
 | variable control | 变量控制 |
 
+## Forbidden Defaults, Not Forbidden Topics
+
+不要默认把题目改写成“为什么某国对冲而不选边”。只有当用户明确提出“对冲、选边、联盟选择、大国竞争、中等国家、东盟、越南、中美竞争”等对象或结果时，才使用这些框架。这些不是禁用题目，而是禁用默认项。
+
+Default Chinese broad-topic handling should be neutral:
+
+1. 先判断题目是否还只是主题。
+2. 先列出多个可能的待解释结果 Y。
+3. 再给多种研究问题类型：差异问题、过程问题、条件问题、时间问题、比较问题。
+4. 暂时不要命名具体国家、地区、战略姿态或理论流派，除非用户已经给出。
+
 ## Output Preferences
 
 - Use Chinese prose first. Use X/Y/M only when it helps clarify a table, graph, or causal chain.
