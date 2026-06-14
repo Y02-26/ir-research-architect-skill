@@ -1,111 +1,101 @@
-# Thesis And Academic Writing
+# Thesis And Proposal Writing
 
-Use this file when drafting, revising, or evaluating a thesis, proposal, paper, or policy report.
+Use this file for thesis structures, proposal outlines, chapter plans, and academic writing revision.
 
-## Academic Paper Structure
+## Standard Structure
 
-Default IR research paper structure:
+1. Introduction
+2. Literature review
+3. Theory / causal explanation
+4. Research design and method
+5. Empirical analysis
+6. Conclusion
 
-1. **Introduction**
-   - Puzzle and research question.
-   - Importance.
-   - Main argument.
-   - Method and evidence preview.
-   - Contribution.
-2. **Literature review**
-   - Existing explanations by debate/mechanism.
-   - Limits of current literature.
-   - Gap leading to the user's question.
-3. **Theory / causal explanation**
-   - Concepts.
-   - Causal mechanism.
-   - Scope conditions.
-   - Hypotheses.
-4. **Research design / methods**
-   - Case/data selection.
-   - Operationalization.
-   - Testing strategy.
-   - Control/rival-explanation strategy.
-5. **Empirical analysis**
-   - Evidence organized around hypotheses or mechanism steps.
-   - Rival explanations considered.
-6. **Conclusion**
-   - Findings.
-   - Theoretical/policy implications.
-   - Limitations.
-   - Future research.
+## Introduction
 
-## Proposal Structure
+Include:
 
-For a proposal or 开题报告:
+- research puzzle;
+- research question;
+- why it matters;
+- core argument;
+- method and evidence preview;
+- contribution;
+- chapter roadmap.
 
-- Title.
-- Research background and puzzle.
-- Research question.
-- Literature review.
-- Core concepts and theoretical framework.
-- Hypotheses or analytical expectations.
-- Method, cases/data, and feasibility.
-- Expected innovation/contribution.
-- Chapter plan.
-- Schedule.
-- References.
+Do not begin with broad historical background unless it directly creates the puzzle.
 
-## Section-Level Rules
+## Literature Review
 
-- Introduction should not become a long history section. It must lead quickly to the puzzle and question.
-- Literature review should not be a book report. When sources are provided by the user, organize them into a debate map; do not invent missing citations.
-- Theory section must produce testable expectations.
-- Method section must explain why the evidence can answer the question.
-- Empirical chapters should test the argument, not merely narrate events.
-- Conclusion should not introduce a new theory or large unexplained claim.
+The literature review should create a debate map, not a bibliography parade.
 
-## Academic Writing
+Organize by:
 
-Prefer:
+- explanation type;
+- mechanism;
+- method;
+- evidence;
+- scope condition;
+- unresolved gap.
 
-- Precise nouns over vague labels.
-- Defined concepts before argument.
-- Short signposting sentences at section openings.
-- Claims tied to evidence.
-- Comparison terms with clear baseline: more than what, compared with whom, during which period.
+End by showing exactly where the user's project enters the debate.
 
-Avoid:
+## Theory Section
 
-- "众所周知", "显而易见", "具有重要意义" without specification.
-- Normative claims disguised as empirical findings.
-- Excessive background unrelated to the question.
-- One paragraph with multiple causal claims but no evidence.
-- Titles that are poetic but do not reveal variables or puzzle.
+Include:
 
-## Title Patterns
+- concept definitions;
+- causal diagram or mechanism chain;
+- assumptions;
+- hypotheses;
+- scope conditions;
+- alternative explanations.
 
-Useful title forms:
+The theory section should produce testable hypotheses.
 
-- "X 如何影响 Y: 基于 [case/time] 的分析"
-- "从 X 到 Y: [mechanism] 的解释"
-- "[Case A] 与 [Case B] 的比较: [outcome] 差异的原因"
-- "[Policy/phenomenon] 的因果机制研究"
+## Method Section
 
-## Footnotes And References
+Include:
 
-Use the user's required citation style. If unspecified:
+- case or sample selection;
+- variable definitions;
+- operationalization and measurement;
+- data sources;
+- testing strategy;
+- control strategy;
+- limitations.
 
-- Keep notes for source attribution, evidence, and necessary clarification.
-- Do not use notes to hide core argument.
-- Ensure every cited source appears in references if the style requires it.
-- Keep bibliographic details consistent.
+## Empirical Chapters
 
-## Revision Checklist
+Organize evidence around hypotheses or mechanism steps, not around a simple timeline unless the timeline itself tests the mechanism.
 
-Before finalizing:
+Each empirical section should state:
 
-- Can the research question be answered in one or two sentences?
-- Is the dependent variable explicit?
-- Does the literature review create a gap rather than merely summarize?
-- Is the causal mechanism visible?
-- Are hypotheses testable?
-- Are concepts operationalized?
-- Does method match evidence?
-- Are rival explanations addressed?
-- Does the conclusion match the evidence actually presented?
+- what claim it tests;
+- what evidence is used;
+- what alternative explanation is considered;
+- what the evidence supports or weakens.
+
+## Conclusion
+
+Include:
+
+- direct answer to the research question;
+- theoretical contribution;
+- empirical contribution;
+- policy implication if relevant;
+- limitations;
+- next research steps.
+
+## Proposal Outline
+
+| Section | Content |
+|---|---|
+| Title | Clear topic, cases, and outcome. |
+| Puzzle | Why the case or pattern is not obvious. |
+| Research question | One main question. |
+| Literature review | Debate map and gap. |
+| Theory | Causal mechanism and hypotheses. |
+| Research design | Cases/data, variables, operationalization, method. |
+| Expected contribution | What knowledge the project adds. |
+| Work plan | Evidence collection and writing schedule. |

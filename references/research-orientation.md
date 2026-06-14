@@ -1,76 +1,61 @@
 # Research Orientation
 
-Use this file to clarify the nature of an IR project before giving method advice.
+Use this file when the user needs to clarify what kind of research they are doing and what standards should guide the project.
 
-## Academic Research, Policy Research, Practice, Commentary
+## Academic Research Vs Policy Research
 
-Separate four neighboring activities:
-
-- **Academic/theoretical research**: explains patterns, mechanisms, or regularities in international relations. It values explanatory power, logical consistency, public evidence, and replicable reasoning.
-- **Policy research**: serves a practical decision need, usually oriented toward national or organizational interests. It values feasibility, relevance, timeliness, and the ability to guide action.
-- **Diplomatic practice**: acts in the world; it negotiates, signals, builds coalitions, manages crises, and implements policy.
-- **International commentary**: evaluates or persuades in public debate; it may be insightful but does not by itself satisfy standards of systematic research.
-
-When the user confuses them, reframe:
-
-- "你要解释一个现象，还是要给决策者提出行动方案？"
-- "你的有效性标准是解释力，还是政策可行性和利益维护？"
-- "这是一篇学术论文、政策报告，还是评论文章？"
-
-## Theory Research vs Policy Research
-
-Use this comparison:
-
-| Dimension | Theory research | Policy research |
+| Dimension | Academic research | Policy research |
 |---|---|---|
-| Purpose | Explain objective patterns and causal mechanisms | Find feasible measures for a practical interest |
-| Audience | Scholarly community | Decision makers, institutions, policy users |
-| Standard | Explanatory validity, causal inference, contribution | Practical utility, feasibility, relevance, risk control |
-| Method preference | Explicit concepts, hypotheses, evidence, falsifiability | Problem diagnosis, scenario analysis, option comparison |
-| Common risk | Empty abstraction, weak evidence | Advocacy disguised as analysis, unclear criteria |
+| Main goal | Produce reliable knowledge and theoretical contribution. | Help decision-makers understand options and consequences. |
+| Core question | Why or how does a phenomenon occur? | What should be done, with what trade-offs? |
+| Evaluation | Clarity, evidence, inference, contribution, transparency. | Relevance, timeliness, feasibility, risk assessment. |
+| Output | Thesis, article, research proposal. | Policy memo, option paper, briefing, risk assessment. |
 
-## Scientific Research Method
+Many projects mix both. If so, separate the academic question from the policy implication.
 
-Use scientific method as an iterative procedure:
+## Scientific Research Logic
 
-1. Select and define the problem.
-2. Review existing knowledge.
-3. Build explanation and hypotheses.
-4. Operationalize concepts and gather evidence.
-5. Test hypotheses against facts and rival explanations.
-6. Revise explanation, clarify scope, and draw conclusions.
+Scientific research should:
 
-Research quality improves when the user makes every step public and checkable: terms are defined, assumptions are visible, evidence is traceable, and inference can be challenged.
+- ask a clear question;
+- define concepts;
+- state causal or descriptive claims precisely;
+- connect claims to evidence;
+- make assumptions and limits explicit;
+- allow other researchers to evaluate or challenge the inference.
 
-## Limits Of IR Scientific Research
+## Quality Standards
 
-International relations research faces special constraints:
+A strong IR research design is:
 
-- Laws often have limited scope because social contexts change.
-- Researchers depend heavily on interpretation and meaning.
-- Variables are difficult to control; randomized experiments are rare.
-- Data may be incomplete, politically biased, or strategically produced.
-- Events are historically embedded and often few in number.
+- **clear**: key terms, cases, time frame, and outcome are specified;
+- **meaningful**: it responds to a puzzle, debate, anomaly, or important real-world problem;
+- **answerable**: data or evidence can plausibly be collected;
+- **testable**: hypotheses or claims can be supported or weakened by evidence;
+- **bounded**: the argument states where it applies and where it may not;
+- **honest**: uncertainty, limitations, and rival explanations are not hidden.
 
-Do not use these limits as an excuse for loose reasoning. Use them to require more careful concept definition, case selection, rival-hypothesis testing, and uncertainty statements.
+## Limits Of IR Research
 
-## Scientific Spirit
+IR research often faces:
 
-Encourage these habits:
+- limited ability to control variables;
+- complex interaction between domestic, international, and individual-level factors;
+- scarce or biased evidence;
+- difficulty observing intentions and decision processes;
+- historically unique events;
+- ethical and access constraints.
 
-- Treat disagreement as a way to sharpen concepts and evidence.
-- Prefer answerable questions over grand but vague themes.
-- State assumptions before conclusions.
-- Separate normative preference from empirical claim.
-- Let evidence revise the argument.
-- Record scope conditions rather than claiming universal explanation too quickly.
+Do not respond to these limits by becoming vague. Respond by narrowing the question, improving comparison, tracing mechanisms, and stating uncertainty.
 
-## Diagnostic Prompts
+## Output Template
 
-Ask these when orienting a project:
-
-- "这个研究想解释什么现象？"
-- "被解释的结果变量是什么？"
-- "你的解释对象是一次事件、一类事件，还是一段时期内的变化？"
-- "你希望贡献理论解释、政策建议，还是二者结合？"
-- "这个结论要说服谁？同行、导师、评审，还是政策部门？"
+| Item | Draft |
+|---|---|
+| Project type | academic / policy / mixed |
+| Main purpose | |
+| Target audience | |
+| Core question | |
+| Main evidence | |
+| Main inference risk | |
+| Expected output | thesis / article / proposal / memo |

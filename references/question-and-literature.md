@@ -1,100 +1,89 @@
-# Research Questions And Literature Materials
+# Research Questions And Literature-Review Design
 
-Use this file when the user has a broad topic, a vague puzzle, a draft literature review, or user-provided literature materials such as article titles, abstracts, reading notes, bibliographies, or pasted excerpts.
+Use this file for topic narrowing, research puzzles, research questions, and literature-review design based on user-provided materials.
 
-## Boundary
+This file does not provide literature search. Ask the user for titles, abstracts, bibliographies, reading notes, or excerpts.
 
-This skill does not search for literature and must not invent real citations. For literature-review work, use only the sources or notes the user provides, plus general methodological categories from the knowledge base. If the user asks for actual source discovery, use a separate web or academic-search workflow and cite real sources.
+## From Topic To Puzzle
 
-## From Interest To Puzzle To Question
+A topic is a broad area. A puzzle is a reason the topic needs research.
 
-Convert:
+Look for:
 
-1. **Research interest**: a broad area, such as alliance politics, economic sanctions, regional organizations, technology competition.
-2. **Research puzzle**: an observed anomaly, contrast, change, or unresolved contradiction.
-3. **Research question**: a precise, answerable question that asks why, how, under what conditions, or with what effect.
+- unexpected outcomes;
+- variation across similar cases;
+- change over time;
+- disagreement in the literature;
+- mismatch between theory and evidence;
+- an important phenomenon with unclear mechanism.
 
-Good IR questions usually identify:
+Weak: "I study great-power competition."
 
-- The phenomenon to explain.
-- The unit of analysis: state, organization, leader, dyad, region, event, policy.
-- The time and spatial scope.
-- The dependent variable or outcome.
-- The kind of answer expected: causal explanation, mechanism, comparison, or policy diagnosis.
+Better: "Why do some middle powers align with US technology restrictions while others hedge despite similar security ties?"
 
-## Good Question Criteria
+## Good Research Question Criteria
 
-Use three core criteria:
+A research question should be:
 
-- **Clear and real**: the question refers to an observable phenomenon and avoids empty slogans.
-- **Meaningful**: it matters theoretically, empirically, or practically.
-- **Answerable**: evidence can be collected and the answer can be evaluated.
-
-Reject or revise questions that are:
-
-- Purely normative: "Should China..." unless reframed as policy evaluation or empirical analysis.
-- Too broad: "Why do wars happen?"
-- Descriptive only: "What is the Belt and Road?"
-- Outcome-free: no dependent variable.
-- Evidence-free: no accessible cases, documents, data, or observable implications.
-
-## Question Forms
+- clear: the outcome and scope are visible;
+- real: it refers to an observable phenomenon;
+- meaningful: it matters for theory, evidence, or policy;
+- answerable: evidence and method are plausible;
+- bounded: cases and time frame are not unlimited.
 
 Useful forms:
 
-- Why did Y occur in case/time T?
-- Why did similar cases produce different outcomes?
-- Under what conditions does X lead to Y?
-- Through what mechanism does X affect Y?
-- Why did policy A change from T1 to T2?
-- How do actors' beliefs, institutions, or capabilities shape Y?
+- Why did Y occur in case A but not case B?
+- Why did Y change after time T?
+- How does X produce Y?
+- Under what conditions does X affect Y?
+- Why does the same pressure produce different outcomes?
 
-## Literature Review Purpose
+## Research Question Template
 
-A literature review is not a stack of summaries. It should:
+| Item | Draft |
+|---|---|
+| Broad topic | |
+| Puzzle/anomaly | |
+| Dependent variable or outcome | |
+| Cases/time frame | |
+| Question wording | |
+| Why it matters | |
+| Evidence available | |
 
-- Locate the research question in existing debates.
-- Identify what is known, contested, or missing.
-- Clarify concepts and common explanations.
-- Show why the new question is necessary.
-- Prepare the ground for the user's causal explanation.
+## Literature-Review Design
 
-## Literature Material Organization Steps
+A literature review should not be a list of authors. It should map explanations.
 
-1. **Inventory provided materials**: list the sources, abstracts, notes, or bibliographic entries the user has supplied.
-2. **Group materials**: organize them by explanation type, mechanism, concept, method, case, or debate.
-3. **Critically evaluate materials**: identify assumptions, evidence, scope, method, and limitations.
-4. **Locate the gap**: state what the supplied materials explain well, what remains unresolved, and how the user's project can contribute.
+Organize user-provided sources by:
 
-Avoid organizing solely by author order. Prefer organizing by explanation type, mechanism, method, or debate.
+- power/structural explanations;
+- domestic-politics explanations;
+- institutional explanations;
+- economic-interdependence explanations;
+- ideational/norm/identity explanations;
+- leadership/perception explanations;
+- historical/path-dependence explanations;
+- methods or evidence types.
 
 ## Literature Matrix
 
-Use this table when helping the user read or organize literature materials supplied by the user:
-
-| Work | Question | Explanation | Method/evidence | Finding | Limitation | Use in my paper |
+| Source provided by user | Research question | Core explanation | Method/evidence | Scope | Limitation | Use in this project |
 |---|---|---|---|---|---|---|
+| | | | | | | |
 
-The final column is crucial. It forces the user to connect literature to their own argument.
+## Gap Types
 
-## Contribution Types
+- Phenomenon gap: existing work does not explain this case or new event.
+- Mechanism gap: existing work links X and Y but does not show how.
+- Scope gap: existing work does not say when the explanation applies.
+- Measurement gap: key concepts or indicators are unclear.
+- Evidence gap: evidence is thin, biased, or limited to one kind of case.
+- Integration gap: two literatures can speak to each other but have not been connected.
 
-Help the user name one or two contributions:
+## Common Errors
 
-- New puzzle or case that existing theory does not explain well.
-- New causal mechanism.
-- New scope condition.
-- Better operationalization or measurement.
-- Better evidence for a contested claim.
-- Integration of two disconnected debates.
-- Policy implication derived from a clearer causal diagnosis.
-
-## Revision Moves
-
-When a question is weak:
-
-- Add a dependent variable: from "study sanctions" to "explain why sanctions sometimes fail to change target behavior."
-- Add contrast: "why did A succeed while B failed?"
-- Add scope: "in post-Cold War territorial disputes."
-- Add mechanism: "through domestic audience costs, elite threat perception, or economic dependence."
-- Add observability: "using UN voting, trade data, leadership speeches, treaty texts, crisis events, interviews, or archival documents."
+- Summarizing sources one by one without debate structure.
+- Saying "there is little research" without naming the exact gap.
+- Reviewing literature unrelated to the research question.
+- Inventing citations or pretending to have read sources not provided.

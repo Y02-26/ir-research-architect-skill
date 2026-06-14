@@ -1,112 +1,84 @@
 # Operationalization And Measurement
 
-Use this file when the user needs variables, indicators, data, coding rules, or measurement quality checks.
+Use this file when the user needs to turn abstract concepts into observable indicators, data, coding rules, and measurement plans.
 
-## Operationalization
+## Operationalization Logic
 
-Operationalization turns an abstract concept into observable evidence. The procedure:
+Operationalization turns a concept into something observable and comparable.
+
+Sequence:
 
 1. Define the concept.
-2. Identify dimensions.
-3. Choose indicators for each dimension.
-4. Specify data sources.
-5. Write coding or measurement rules.
-6. Check validity and reliability.
+2. Break it into dimensions.
+3. Select indicators for each dimension.
+4. Name data sources.
+5. Write coding rules.
+6. Assess validity and reliability.
 7. State limitations and robustness checks.
 
 ## Concept Definition
 
-A useful definition should:
+A good definition:
 
-- Fit the research question.
-- Distinguish the concept from neighboring concepts.
-- Avoid building the expected cause or outcome into the definition.
-- Be broad enough for comparison but specific enough to observe.
+- is not circular;
+- separates the concept from its causes and effects;
+- matches the research question;
+- is narrow enough to observe;
+- can travel across selected cases without stretching too far.
 
-Bad: "Strategic trust is when states cooperate successfully."
+Bad:
 
-Better: "Strategic trust is an expectation that another state will not exploit vulnerability in a specified issue area."
+```text
+Influence means having influence.
+```
 
-## Indicator Selection
+Better:
 
-Indicators should be:
+```text
+Influence means the ability of actor A to change actor B's preference, behavior, or policy choice in a specified issue area.
+```
 
-- Observable.
-- Relevant to the concept.
-- Available across cases/time.
-- Sensitive enough to capture variation.
-- Not identical to the dependent variable unless explicitly justified.
+## Dimensions And Indicators
 
-Examples in IR:
-
-| Concept | Possible dimensions | Possible indicators |
+| Concept | Dimension | Possible indicators |
 |---|---|---|
-| Threat perception | capability, intent, proximity | defense white papers, leader speeches, military deployments |
-| Alliance commitment | institutionalization, military support, public signals | treaty clauses, joint exercises, basing, aid |
-| Economic dependence | trade, investment, finance, technology | export share, FDI stock, supply-chain concentration |
-| International status | recognition, institutional rank, discourse | IO leadership roles, diplomatic visits, media/elite statements |
-| Policy change | goal, instrument, intensity | official documents, voting behavior, sanctions, spending |
+| Institutional authority | Delegation | formal mandate, voting rules, enforcement power |
+| Threat perception | Elite belief | speeches, strategy documents, classified/declassified assessments |
+| Economic dependence | Trade/finance exposure | trade share, investment stock, supply-chain concentration |
+| Compliance | Behavior | treaty implementation, violation count, reporting record |
 
 ## Measurement Levels
 
-Choose the measurement level consciously:
-
-- **Nominal**: categories with no order, such as regime type categories.
-- **Ordinal**: ordered categories, such as low/medium/high threat.
-- **Interval**: equal intervals without meaningful zero, rare in IR coding.
-- **Ratio**: meaningful zero, such as trade volume, military spending, number of disputes.
-
-Do not use statistical methods that assume more precision than the data supports.
+| Level | Meaning | Example |
+|---|---|---|
+| Nominal | Categories without order | regime type, alliance membership |
+| Ordinal | Ordered categories | low/medium/high institutionalization |
+| Interval | Equal intervals, no true zero | index score |
+| Ratio | Equal intervals with true zero | number of sanctions, trade volume |
 
 ## Validity And Reliability
 
-- **Validity**: whether the indicator measures the intended concept.
-- **Reliability**: whether the same rule produces consistent results across coders, cases, or time.
+Validity asks whether the indicator measures the intended concept.
 
-Validity risks:
+Reliability asks whether the measurement procedure is consistent.
 
-- Indicator captures a neighboring concept.
-- Data source is strategically biased.
-- Concept changes meaning across contexts.
-- Indicator reflects the outcome rather than the cause.
+| Risk | Question | Fix |
+|---|---|---|
+| Concept-indicator mismatch | Does the indicator capture the concept? | Add dimensions or choose a better indicator. |
+| Measurement overlap | Does the X indicator already include Y? | Define X independently of Y. |
+| Source bias | Does the source systematically distort the evidence? | Triangulate with another source type. |
+| Coding ambiguity | Would two coders code the case differently? | Write explicit coding rules. |
 
-Reliability risks:
+## Operationalization Table
 
-- Coding rules are vague.
-- Data is missing or inconsistently recorded.
-- Translation or source selection varies.
-- Human coders infer intent without explicit criteria.
-
-## Coding Rule Template
-
-Use this for qualitative coding:
-
-```text
-Concept:
-Dimension:
-Indicator:
-Unit of observation:
-Data source:
-Coding values:
-Inclusion rule:
-Exclusion rule:
-Ambiguous cases:
-Example:
-Reliability check:
-```
-
-## Measurement Table
-
-Use this output table:
-
-| Variable | Conceptual definition | Dimensions | Indicator | Source | Level | Validity risk | Reliability check |
+| Concept | Definition | Dimensions | Indicators | Data source | Coding rule | Validity risk | Reliability check |
 |---|---|---|---|---|---|---|---|
+| | | | | | | | |
 
 ## Common Errors
 
-- Treating a slogan as a measurable concept.
-- Defining the independent variable using the dependent variable.
-- Picking indicators only because data is easy.
-- Mixing levels of analysis without explanation.
-- Ignoring missing data or source bias.
-- Using one indicator for a multidimensional concept without acknowledging loss.
+- Choosing indicators only because they are easy to obtain.
+- Defining X by Y, which creates circularity.
+- Treating a case name as a variable.
+- Using a vague concept as if it were directly observable.
+- Hiding missing data or source bias.

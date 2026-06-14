@@ -1,4 +1,4 @@
 interface:
-  display_name: "国际关系研究方法"
-  short_description: "IR methods, causal design, and thesis writing"
-  default_prompt: "Use $guoji-guanxi-yanjiu-fangfa to design a rigorous international relations research plan."
+  display_name: "IR Research Architect"
+  short_description: "Design rigorous IR research questions, causal explanations, hypotheses, variables, tests, and thesis structures."
+  default_prompt: "Use $ir-research-architect to turn my international relations topic into a rigorous research design."

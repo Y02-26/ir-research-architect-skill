@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate an IR research design scaffold or checklist."""
+"""Generate an international-relations research-design scaffold or checklist."""
 
 from __future__ import annotations
 
@@ -8,154 +8,136 @@ from pathlib import Path
 
 
 def scaffold(topic: str) -> str:
-    return f"""# 国际关系研究设计草案
+    return f"""# International Relations Research Design Draft
 
-## 主题
+## Topic
 
 {topic}
 
-## 1. 选题
+## 1. Topic Narrowing
 
-| 项目 | 内容 |
+| Item | Draft |
 |---|---|
-| 初始主题 | {topic} |
-| 具体现象 | |
-| 主体/案例 | |
-| 时间范围 | |
-| 空间范围 | |
-| 变化/差异/异常 | |
-| 资料可得性 | |
-| 初步研究价值 | |
+| Initial topic | {topic} |
+| Concrete phenomenon | |
+| Actors/cases | |
+| Time frame | |
+| Spatial scope | |
+| Variation, change, or anomaly | |
+| Available evidence | |
+| Research value | |
 
-## 2. 研究问题
+## 2. Research Question
 
-| 项目 | 内容 |
+| Item | Draft |
 |---|---|
-| 研究困惑 | |
-| 核心研究问题 | |
-| 因变量 Y | |
-| 解释对象 | |
-| 案例/时间范围 | |
-| 问题类型 | why / how / under what conditions / with what effect |
-| 可回答性证据 | |
+| Research puzzle | |
+| Core question | |
+| Outcome / dependent variable Y | |
+| Cases and time frame | |
+| Question type | why / how / under what conditions / with what effect |
+| Answerability evidence | |
 
-## 3. 文献综述设计矩阵
+## 3. Literature-Review Design
 
-> 仅整理已经提供的文献、摘要、书目或读书笔记；不要编造真实文献。
+Use only user-provided sources, abstracts, bibliographies, excerpts, or reading notes. Do not invent citations.
 
-| 已提供材料/作者 | 研究问题 | 核心解释 | 方法/证据 | 适用范围 | 局限 | 本文如何使用 |
+| Provided source | Question addressed | Core explanation | Method/evidence | Scope | Limitation | Use in this project |
 |---|---|---|---|---|---|---|
 | | | | | | | |
 
-## 4. 因果解释
+## 4. Causal Explanation
 
-| 要素 | 内容 |
+| Element | Draft |
 |---|---|
-| 原因 X | |
-| 结果 Y | |
-| 因果机制 M | |
-| 范围条件 S | |
-| 竞争性解释 R | |
-| 可观察含义 O | |
+| Cause / independent variable X | |
+| Outcome / dependent variable Y | |
+| Mediator or mechanism M | |
+| Scope condition, if needed | |
+| Alternative explanation | |
+| Observable implication | |
 
-机制链：
+Mechanism chain:
 
 ```text
-X 改变了行为体的认知、激励、资源或约束。
-行为体因此采取某种策略或行为。
-该行为改变互动结构、制度安排或资源分配。
-最终产生 Y。
+X changes an actor's beliefs, incentives, resources, information, or constraints.
+The actor chooses a strategy or behavior.
+That behavior changes an interaction pattern, institution, or resource distribution.
+The changed condition produces Y.
 ```
 
-## 5. 假设
+## 5. Hypotheses
 
-| 假设 | 方向/条件 | 机制 | 可观察含义 | 可能反驳证据 |
+| Hypothesis | Direction/condition | Mechanism | Observable implication | Possible disconfirming evidence |
 |---|---|---|---|---|
 | H1 | | | | |
 | H2 | | | | |
-| 竞争性假设 | | | | |
+| Alternative hypothesis | | | | |
 
-## 6. 变量设计
+## 6. Variables
 
-| 变量 | 类型 | 概念定义 | 预期作用 | 与机制关系 | 可能指标 |
+| Variable | Role | Conceptual definition | Expected role | Link to mechanism | Possible indicators |
 |---|---|---|---|---|---|
-| Y | 因变量 | | | | |
-| X | 自变量 | | | | |
-| M | 中介变量 | | | | |
-| S | 范围/调节变量 | | | | |
-| C | 混杂/控制变量 | | | | |
+| Y | Dependent variable | | | | |
+| X | Independent variable | | | | |
+| M | Mediator/mechanism element | | | | |
+| C | Confounder/control | | | | |
+| D | Collider, if relevant | Common result of X and Y in the book's Figure 5.5 pattern | Do not control casually | | |
 
-## 7. 操作化与测量
+## 7. Operationalization And Measurement
 
-| 概念 | 定义 | 维度 | 指标 | 数据来源 | 编码规则 | 效度风险 | 信度检查 |
+| Concept | Definition | Dimensions | Indicators | Data source | Coding rule | Validity risk | Reliability check |
 |---|---|---|---|---|---|---|---|
 | | | | | | | | |
 
-## 8. 假设检验
+## 8. Hypothesis Testing
 
-| 假设 | 可观察含义 | 证据/数据 | 方法 | 竞争解释 | 支持标准 | 反驳证据 |
+| Hypothesis | Observable implication | Evidence/data | Method | Alternative explanation | Support criterion | Disconfirming evidence |
 |---|---|---|---|---|---|---|
-| H1 | | | | | | |
-| H2 | | | | | | |
+| | | | | | | |
 
-补充说明：
+## 9. Thesis Structure
 
-- 案例/样本选择：
-- 变量控制策略：
-- 过程追踪证据：
-- 不确定性来源：
-- 最小下一步证据：
-
-## 9. 论文结构
-
-1. 导论：
-2. 文献综述设计：
-3. 理论框架与假设：
-4. 研究设计：
-5. 经验检验：
-6. 结论：
-
-## 全流程自检
-
-| 环节 | 当前版本 | 需要补强 |
-|---|---|---|
-| 选题 | | |
-| 研究问题 | | |
-| 文献综述设计 | | |
-| 因果解释 | | |
-| 假设 | | |
-| 变量 | | |
-| 操作化 | | |
-| 假设检验 | | |
-| 论文结构 | | |
+1. Introduction: puzzle, question, argument, method, contribution.
+2. Literature review: explanation types, debate map, gap.
+3. Theory: concepts, causal mechanism, hypotheses.
+4. Research design: cases/data, variables, operationalization, method.
+5. Empirical analysis: evidence organized around hypotheses or mechanism steps.
+6. Conclusion: answer the question, state contribution, limits, implications.
 """
 
 
-CHECKLIST = """# 国际关系研究设计检查清单
+def checklist(topic: str) -> str:
+    return f"""# Research Design Checklist
 
-- [ ] 选题包含具体现象、主体/案例、时间范围和可观察变化。
-- [ ] 研究问题清楚、真实、有意义、能回答。
-- [ ] 因变量 Y 明确，且不是泛泛主题。
-- [ ] 自变量 X 明确，且与 Y 有合理时间先后。
-- [ ] 文献综述设计基于已提供材料，形成争论地图而不是逐篇摘要。
-- [ ] 因果解释包含 X、Y、机制、范围条件和竞争性解释。
-- [ ] 假设有方向、条件、机制和可观察含义。
-- [ ] 变量表区分自变量、因变量、中介变量、调节变量、混杂变量和控制变量。
-- [ ] 操作化包含概念定义、维度、指标、数据来源、编码规则、效度和信度。
-- [ ] 假设检验说明案例/样本选择、方法、控制策略、竞争解释和反驳证据。
-- [ ] 论文结构围绕研究问题和检验设计展开，而不是材料堆放。
-- [ ] 结论不超出证据支持范围。
+Topic: {topic}
+
+- [ ] The topic is narrower than a field and broader than a single fact.
+- [ ] The puzzle identifies an anomaly, contrast, change, or unresolved debate.
+- [ ] The research question is clear, meaningful, and answerable.
+- [ ] The dependent variable Y is explicit.
+- [ ] The proposed cause X is explicit.
+- [ ] Temporal order is plausible: X precedes Y.
+- [ ] The causal mechanism is a chain of entities, activities, and generative links.
+- [ ] Scope conditions are stated when the hypothesis is not universal.
+- [ ] Alternative explanations and confounders are considered.
+- [ ] Colliders are drawn accurately; in the book's Figure 5.5 pattern, X -> Y, X -> D, and Y -> D.
+- [ ] Concepts are defined before indicators are selected.
+- [ ] Operationalization includes dimensions, indicators, sources, and coding rules.
+- [ ] Method and evidence match the hypothesis.
+- [ ] The design names what evidence would weaken or falsify the hypothesis.
+- [ ] Each thesis chapter serves the research question.
 """
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate an IR research design scaffold.")
-    parser.add_argument("--topic", default="待定主题", help="Research topic.")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--topic", required=True, help="Research topic")
     parser.add_argument("--mode", choices=["scaffold", "checklist"], default="scaffold")
-    parser.add_argument("--out", help="Optional output Markdown path.")
+    parser.add_argument("--out", help="Optional output file")
     args = parser.parse_args()
 
-    text = CHECKLIST if args.mode == "checklist" else scaffold(args.topic)
+    text = scaffold(args.topic) if args.mode == "scaffold" else checklist(args.topic)
     if args.out:
         Path(args.out).write_text(text, encoding="utf-8")
     else:

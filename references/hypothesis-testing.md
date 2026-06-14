@@ -1,113 +1,90 @@
-# Hypothesis Testing And Variable Control
+# Hypothesis Testing
 
-Use this file when the user needs a test design, case selection, variable control, process tracing, or inference critique.
+Use this file when the user needs a plan for testing hypotheses, selecting cases/data, controlling variables, comparing explanations, or assessing uncertainty.
 
 ## Testing Logic
 
-Hypothesis testing asks whether empirical evidence supports the main explanation better than rival explanations. A test plan should specify:
+Hypothesis testing is not the search for supportive evidence. It is a comparison between the main hypothesis, alternative explanations, and possible disconfirming evidence.
 
-- Main hypothesis.
-- Rival hypotheses.
-- Observable implications.
-- Evidence/data.
-- Case selection logic.
-- Variable control strategy.
-- Criteria for support, revision, or rejection.
+Ask:
+
+- What hypothesis is being tested?
+- What evidence should exist if it is true?
+- What evidence would weaken it?
+- What alternative explanation could produce the same outcome?
+- What cases or data can distinguish between them?
+
+## Evidence Chain
+
+| Link | Question |
+|---|---|
+| Before X | Was the background condition present? |
+| X | Did the proposed cause occur or vary? |
+| Mechanism | Are there traces of the process from X to Y? |
+| Y | Did the outcome occur or vary as expected? |
+| Alternative | Could another explanation fit better? |
 
 ## Qualitative Testing
 
-Qualitative research often uses:
+Use qualitative testing when cases are few, mechanisms matter, evidence is heterogeneous, or the project asks why/how.
 
-- **Case study**: deep analysis of one or several cases.
-- **Comparative case study**: compare similar or different cases to isolate key variables.
-- **Process tracing**: examine within-case evidence for the causal mechanism.
-- **Counterfactual reasoning**: ask what would plausibly happen without X.
-- **Most-similar systems**: cases similar on background factors but different on X/Y.
-- **Most-different systems**: cases different on background factors but sharing X/Y relation.
+Common strategies:
 
-## Process Tracing Checklist
+- single-case study;
+- within-case comparison;
+- most-similar case comparison;
+- most-different case comparison;
+- positive-negative case comparison;
+- process tracing;
+- counterfactual analysis.
 
-For a mechanism X -> M -> Y:
-
-- Identify each step in the mechanism.
-- Specify what evidence each step should leave.
-- Check temporal order.
-- Search for evidence that should not appear if the mechanism is false.
-- Compare against rival mechanisms.
-- Avoid selecting only confirming evidence.
-
-Output table:
-
-| Mechanism step | Expected trace | Evidence found | Rival explanation | Assessment |
-|---|---|---|---|---|
+Process tracing should test mechanism steps. It should not become a chronological narrative.
 
 ## Quantitative Testing
 
-Quantitative testing is useful when:
+Use quantitative testing when:
 
-- The variables can be measured across many observations.
-- The unit of analysis is consistent.
-- Data availability and quality are sufficient.
-- The hypothesis expects systematic variation.
+- variables can be measured across many cases or time periods;
+- the research question asks about patterns or average effects;
+- comparable data are available;
+- controls can be theoretically justified.
 
-State model logic in plain language before equations:
-
-- What outcome is modeled?
-- What is the key independent variable?
-- Which controls address confounding?
-- What signs or magnitudes are expected?
-- What robustness checks matter?
+Quantitative significance does not by itself prove the mechanism. If the claim is causal, connect statistical results to mechanism and alternative explanations.
 
 ## Variable Control
 
-Variable control improves causal inference by addressing rival explanations and confounding.
+Control variables should be theoretically justified.
 
-Principles:
-
-- Control confounders that affect both X and Y.
-- Do not control mediators if estimating total effect.
-- Be careful controlling colliders, because this can create spurious association.
-- Match control strategy to theory, not just software defaults.
-- Explain why each control variable belongs in the design.
-
-## Common Control Problems
-
-| Problem | Meaning | Risk |
+| Variable type | Control? | Reason |
 |---|---|---|
-| Omitted confounder | A common cause of X and Y is ignored | Spurious or biased estimate |
-| Overcontrol | Mediator is controlled | Real causal effect is hidden |
-| Collider control | Common effect is conditioned on | Artificial association appears |
-| Bad comparison | Cases differ on too many relevant factors | Rival explanations remain |
-| Selection bias | Cases selected based on outcome or available evidence | Inference is distorted |
+| Confounder | Usually yes | It may affect both X and Y. |
+| Mediator | Usually no for total effect | It is part of the causal path from X to Y. |
+| Collider | No | Conditioning on it can create bias. In the source's Figure 5.5 pattern: X -> Y, X -> D, Y -> D. |
+| Background constant | Not needed if truly constant | It does not vary in the selected design. |
 
-## Uncertainty
+## Case Selection
 
-Report uncertainty explicitly:
+| Strategy | Use when | Risk |
+|---|---|---|
+| Most-similar cases | Cases are similar but differ on X/Y. | Hidden differences may remain. |
+| Most-different cases | Cases differ broadly but share X/Y. | Mechanisms may not be equivalent. |
+| Positive-negative comparison | One case has Y and another lacks Y. | Negative cases may have thin evidence. |
+| Same case over time | Explaining change. | Many things may change at once. |
+| Crucial case | Testing a theory under favorable or difficult conditions. | Generalization is limited. |
 
-- Data uncertainty: missing, biased, strategically produced, or inconsistent data.
-- Measurement uncertainty: indicator validity/reliability problems.
-- Model uncertainty: alternative specifications or mechanisms.
-- Historical uncertainty: incomplete records, retrospective interpretation.
-- Scope uncertainty: whether findings apply beyond selected cases.
+## Testing Plan Table
 
-## Evidence Strength
+| Hypothesis | Observable implication | Evidence/data | Method | Alternative explanation | Support criterion | Disconfirming evidence |
+|---|---|---|---|---|---|---|
+| | | | | | | |
 
-Rank evidence:
+## Common Inference Errors
 
-- Strong: directly observes predicted mechanism and weakens rivals.
-- Moderate: consistent with hypothesis but also compatible with rivals.
-- Weak: anecdotal, post hoc, or only loosely connected.
-- Negative: contradicts expected timing, mechanism, or implication.
-
-## Output Pattern
-
-Use this table:
-
-| Hypothesis | Observable implication | Evidence/data | Test method | Controls/rivals | Result criteria |
-|---|---|---|---|---|---|
-
-Then add:
-
-- Main inference risk.
-- What evidence would falsify or seriously weaken the claim.
-- Minimum next evidence to collect.
+- Selecting only cases where Y occurred.
+- Treating narrative sequence as causal proof.
+- Ignoring negative evidence.
+- Controlling for a mediator.
+- Controlling for a collider.
+- Using a control variable without theoretical reason.
+- Equating correlation with mechanism.
+- Claiming proof when the evidence only supports plausibility.
