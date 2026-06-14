@@ -1,4 +1,4 @@
 interface:
   display_name: "IR Research Architect"
-  short_description: "Design rigorous IR research questions, causal explanations, hypotheses, variables, tests, and thesis structures."
-  default_prompt: "Use $ir-research-architect to turn my international relations topic into a rigorous research design."
+  short_description: "Design rigorous IR research questions, mechanisms, variables, and tests for English or Chinese users."
+  default_prompt: "Use $ir-research-architect to help me refine my international-relations or political-science research topic."

@@ -16,16 +16,32 @@
 
 ## 安装方法
 
+推荐安装方式：只下载 skill 运行必需文件，不下载 README。
+
 macOS / Linux:
 
 ```bash
-git clone https://github.com/Y02-26/ir-research-architect-skill ~/.codex/skills/ir-research-architect
+git clone --filter=blob:none --no-checkout https://github.com/Y02-26/ir-research-architect-skill ~/.codex/skills/ir-research-architect
+cd ~/.codex/skills/ir-research-architect
+git sparse-checkout init --no-cone
+git sparse-checkout set SKILL.md agents references scripts
+git checkout
 ```
 
 Windows PowerShell:
 
 ```powershell
-git clone https://github.com/Y02-26/ir-research-architect-skill "$env:USERPROFILE\.codex\skills\ir-research-architect"
+git clone --filter=blob:none --no-checkout https://github.com/Y02-26/ir-research-architect-skill "$env:USERPROFILE\.codex\skills\ir-research-architect"
+Set-Location "$env:USERPROFILE\.codex\skills\ir-research-architect"
+git sparse-checkout init --no-cone
+git sparse-checkout set SKILL.md agents references scripts
+git checkout
+```
+
+如果你只是想看仓库或参与修改，可以正常克隆完整仓库：
+
+```bash
+git clone https://github.com/Y02-26/ir-research-architect-skill
 ```
 
 ## 示例用法
@@ -39,17 +55,7 @@ Use IR Research Architect to revise my hypothesis and list alternative explanati
 ```
 
 ```text
-Use IR Research Architect to organize these reading notes into a literature-review design.
-```
-
-你也可以直接用中文提问，例如：
-
-```text
 用 IR Research Architect 帮我把“中美技术竞争”改成一个可以写论文的研究问题。
-```
-
-```text
-用 IR Research Architect 检查我的因果机制、变量和假设有没有问题。
 ```
 
 ## 它能帮你做什么
@@ -57,7 +63,7 @@ Use IR Research Architect to organize these reading notes into a literature-revi
 | 能力 | 说明 |
 |---|---|
 | 选题压缩 | 把宽泛主题改成具体、真实、有意义、能回答的研究问题。 |
-| 研究问题 | 帮你写出清楚、可回答、有理论价值的 why / how / under what conditions 问题。 |
+| 研究问题 | 写出清楚、可回答、有理论价值的 why / how / under what conditions 问题。 |
 | 文献综述设计 | 根据你已有的文献、笔记、摘要或材料，整理争论地图、解释类型和研究缺口。 |
 | 因果解释 | 搭建 X -> 机制 -> Y 的解释链，并检查反事实、范围条件和竞争解释。 |
 | 假设生成 | 把想法改写成有方向、有条件、有可观察含义的研究假设。 |
@@ -73,41 +79,6 @@ Use IR Research Architect to organize these reading notes into a literature-revi
 - 文献综述必须基于你提供的文献、摘要、阅读笔记、书目或另行明确搜索得到的资料。
 - 它是研究方法助手，不替代导师、同行评审和你自己的判断。
 - 它提供的是整理后的方法知识库，不是原书全文。
-
-## 目录结构
-
-```text
-ir-research-architect-skill/
-|-- SKILL.md
-|-- agents/
-|   `-- openai.yaml
-|-- references/
-|   |-- knowledge-map.md
-|   |-- research-workflow.md
-|   |-- research-orientation.md
-|   |-- question-and-literature.md
-|   |-- causal-explanation.md
-|   |-- operationalization-measurement.md
-|   |-- hypothesis-testing.md
-|   |-- thesis-writing.md
-|   `-- checklists.md
-`-- scripts/
-    `-- ir_research_design.py
-```
-
-## 可复用脚本
-
-```bash
-python scripts/ir_research_design.py --topic "US-China technology competition" --out design.md
-python scripts/ir_research_design.py --topic "regional organizations and conflict mediation" --mode checklist
-```
-
-## 适合谁
-
-- 正在写国际关系、政治学、区域国别研究论文的学生
-- 准备开题、选题、研究设计或方法论章节的人
-- 想把“我有一个想法”推进成“我有一个可检验研究设计”的人
-- 需要检查因果机制、变量、假设、操作化和论文结构的人
 
 ## Star History
 

@@ -52,12 +52,13 @@ Load only the reference needed for the current task:
 
 ## Reusable Script
 
-Use `scripts/ir_research_design.py` to generate a research-design scaffold or checklist:
+Use `scripts/ir_research_design.py` to generate a research-design scaffold, checklist, question-discovery template, diagnosis table, or validation prompts:
 
 ```bash
 python scripts/ir_research_design.py --topic "US-China technology competition" --out design.md
 python scripts/ir_research_design.py --topic "regional organizations and conflict mediation" --mode checklist
-python scripts/ir_research_design.py --topic "一带一路与中亚国家外交政策" --lang zh --mode question
+python scripts/ir_research_design.py --topic "China-Central Asia diplomacy" --lang zh --mode question
+python scripts/ir_research_design.py --mode validate-prompts
 ```
 
 Patch the script if the user needs a customized template.
