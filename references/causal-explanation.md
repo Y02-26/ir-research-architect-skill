@@ -184,6 +184,21 @@ Outcome Y:
 Evidence for each link:
 ```
 
+## Mechanism Non-Transfer Rule
+
+Never reuse a mechanism from an example simply because the topic sounds similar.
+
+A mechanism must be rebuilt from the user's case:
+
+- actors/entities;
+- actor attributes;
+- incentives, beliefs, resources, information, or constraints;
+- actions and interactions;
+- sequence;
+- evidence traces.
+
+Theory labels such as realism, institutionalism, constructivism, domestic politics, or bargaining theory may help orient the mechanism, but they do not replace the mechanism.
+
 Mechanism quality tests:
 
 - Entity test: Does each step identify an actor, institution, rule, resource, or organization?

@@ -1,6 +1,6 @@
 ---
 name: ir-research-architect
-description: International relations and political science research-design assistant based on a paraphrased methods knowledge base from Practical Methods for International Relations Research, 3rd edition. Use when helping with topic selection, research questions, literature-review design from user-provided materials, causal explanation, hypothesis building, variables, operationalization, measurement, variable control, qualitative or quantitative hypothesis testing, proposal design, thesis structure, academic writing, references, or policy-research framing. Do not use as a literature-search skill or to invent real citations.
+description: International relations and political science research-design assistant based on a paraphrased methods knowledge base from Practical Methods for International Relations Research, 3rd edition. Use when helping with topic selection, research questions, literature-review design from user-provided materials, causal explanation, hypothesis building, variables, operationalization, measurement, variable control, qualitative or quantitative hypothesis testing, proposal design, thesis structure, academic writing, references, or policy-research framing. Also use for Chinese requests about international-relations research methods, Chinese IR thesis topic selection, political-science research design, proposal design, literature review, causal mechanisms, variable operationalization, hypothesis testing, or thesis structure. Do not use as a literature-search skill or to invent real citations.
 ---
 
 # IR Research Architect
@@ -23,6 +23,8 @@ Treat research design as a linked sequence:
 Load only the reference needed for the current task:
 
 - `references/knowledge-map.md`: Read first for source scope, OCR caveats, and routing.
+- `references/reasoning-patterns.md`: Use for safe reasoning moves, broad-topic handling, topic-to-question conversion, and anti-copying rules. Examples demonstrate reasoning moves, not mechanisms to imitate.
+- `references/chinese-output-style.md`: Use when responding to Chinese users or producing Chinese proposal/thesis language.
 - `references/research-workflow.md`: Use for end-to-end research design from topic to thesis structure.
 - `references/research-orientation.md`: Use for theory vs policy research, scientific method, research quality, and limits of IR research.
 - `references/question-and-literature.md`: Use for topic narrowing, research puzzles/questions, and literature-review design based on user-provided sources. It does not provide literature search.
@@ -34,10 +36,17 @@ Load only the reference needed for the current task:
 
 ## Response Rules
 
-- Respond in the user's language unless they ask otherwise. The skill files are in English to avoid encoding problems.
+- Respond in the user's language unless they ask otherwise. Core procedural files are mostly English for encoding safety; Chinese academic phrasing is centralized in `references/chinese-output-style.md`.
 - For literature-review tasks, organize only user-provided titles, abstracts, bibliographies, excerpts, or reading notes. Do not invent citations or claim to have searched literature unless a separate search workflow is explicitly used.
 - Separate research question, causal explanation, hypothesis, operationalization, and testing strategy.
 - Start from the dependent variable/outcome when building causal explanations.
+- Examples and patterns are demonstrations of reasoning moves, not substantive templates. Do not reuse causal mechanisms, variables, cases, or hypotheses from examples unless the user's topic genuinely matches them.
+- Always derive the dependent variable/outcome from the user's topic before proposing causes or mechanisms.
+- When the user gives only a broad topic, offer several possible outcome variables instead of choosing one silently.
+- When the user provides a draft, diagnose the weakest link in the design chain before rewriting.
+- For Chinese users, use standard Chinese academic-method terms by default. If using X/Y/M notation, define it first in Chinese: dependent variable/outcome Y, independent variable/cause X, mechanism M.
+- Avoid exposing X/Y/M notation unless it helps clarify a table or causal diagram.
+- Use compact prose for early brainstorming. Use tables when the user asks for a proposal, research design, comparison, or revision checklist.
 - Mark source-derived points vs methodological additions when precision matters.
 - State uncertainty when a point is inferred from OCR-derived notes rather than directly verified source text.
 
@@ -48,6 +57,7 @@ Use `scripts/ir_research_design.py` to generate a research-design scaffold or ch
 ```bash
 python scripts/ir_research_design.py --topic "US-China technology competition" --out design.md
 python scripts/ir_research_design.py --topic "regional organizations and conflict mediation" --mode checklist
+python scripts/ir_research_design.py --topic "一带一路与中亚国家外交政策" --lang zh --mode question
 ```
 
 Patch the script if the user needs a customized template.

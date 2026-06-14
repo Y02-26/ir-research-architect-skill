@@ -27,6 +27,8 @@ Use this sequence as the default workflow:
 ## Which Reference To Use
 
 - Need a complete design: open `research-workflow.md`.
+- Need safe reasoning patterns or broad-topic conversion: open `reasoning-patterns.md`.
+- Need Chinese academic-method phrasing: open `chinese-output-style.md`.
 - Need project type or research standards: open `research-orientation.md`.
 - Need topic/question/literature-review help: open `question-and-literature.md`.
 - Need causal mechanisms or hypotheses: open `causal-explanation.md`.
@@ -43,3 +45,10 @@ Use this sequence as the default workflow:
 - Literature-material matrix: source, question, theory, method, evidence, finding, limitation, relevance.
 - Operationalization table: concept, definition, dimensions, indicators, source, coding rule, validity risk.
 - Testing plan: hypothesis, observable implication, evidence, method, alternative explanation, falsification risk.
+
+For broad topics, prefer outcome-discovery outputs before full designs:
+
+- possible dependent variables/outcomes;
+- possible variation or anomaly;
+- candidate research questions;
+- missing scope/evidence information.

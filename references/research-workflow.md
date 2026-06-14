@@ -6,6 +6,18 @@ Core chain:
 
 `topic -> research question -> literature-review design -> causal explanation -> hypotheses -> variables -> operationalization -> hypothesis testing -> thesis structure`
 
+## Non-Template Rule
+
+Do not fill the workflow by importing a mechanism from another topic or example.
+
+Each design must be rebuilt from:
+
+1. the user's outcome Y;
+2. the selected cases and time period;
+3. observed variation or anomaly;
+4. available evidence;
+5. plausible actors and mechanisms in that context.
+
 ## 1. Topic
 
 A topic is an entry point, not a research question.
@@ -302,7 +314,8 @@ Common mistakes:
 
 If the user gives only a broad topic, do not fabricate a full design. Produce:
 
-1. three possible research questions;
-2. the recommended one;
-3. why it is answerable;
-4. what information is still needed.
+1. three to five possible dependent variables/outcomes;
+2. two or three possible research questions;
+3. the recommended question, with reasons;
+4. what information is still needed;
+5. a warning that mechanisms cannot be chosen until the outcome and scope are fixed.
