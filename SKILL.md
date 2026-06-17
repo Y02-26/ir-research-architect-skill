@@ -11,7 +11,17 @@ The bundled knowledge base is an OCR-assisted, paraphrased synthesis of a Chines
 
 ## Core Workflow
 
-Treat research design as a linked sequence:
+Do not begin from a preset workflow or template. Begin from the user's input.
+
+Input-responsive retrieval workflow:
+
+1. Parse the user's input for task signals: topic, draft text, research question, literature notes, causal mechanism, hypothesis, variables, measurement, testing, thesis structure, language, and requested output.
+2. Retrieve only the relevant knowledge-base references listed below. Use `knowledge-map.md` for routing when the task is mixed or unclear.
+3. Use the retrieved reference guidance to answer the user's specific question.
+4. If the input is too broad, generate diagnostic questions and candidate Y values from the user's own words; do not use a fixed menu.
+5. If the user requests literature search or current sources explicitly, use a separate search workflow/tool. This skill itself must not invent citations.
+
+Treat research design as a linked sequence only after the relevant task has been identified:
 
 1. Clarify whether the task is theoretical research, policy research, or a mixed project.
 2. Move through the full chain: topic -> research question -> literature-review design -> causal explanation -> hypotheses -> variables -> operationalization -> hypothesis testing -> thesis structure.
@@ -20,7 +30,7 @@ Treat research design as a linked sequence:
 
 ## Reference Selection
 
-Load only the reference needed for the current task:
+Load only the reference needed for the current task. Select references from the user's actual input, not from a default path:
 
 - `references/knowledge-map.md`: Read first for source scope, OCR caveats, and routing.
 - `references/reasoning-patterns.md`: Use for safe reasoning moves, broad-topic handling, topic-to-question conversion, and anti-copying rules. Examples demonstrate reasoning moves, not mechanisms to imitate.
@@ -37,6 +47,8 @@ Load only the reference needed for the current task:
 ## Response Rules
 
 - Respond in the user's language unless they ask otherwise. Core procedural files are mostly English for encoding safety; Chinese academic phrasing is centralized in `references/chinese-output-style.md`.
+- First retrieve the relevant knowledge-base section, then answer. Do not answer from a memorized default workflow when the user's task points to a specific reference.
+- If several references are relevant, read only the smallest set needed and state the working focus internally through the answer structure.
 - For literature-review tasks, organize only user-provided titles, abstracts, bibliographies, excerpts, or reading notes. Do not invent citations or claim to have searched literature unless a separate search workflow is explicitly used.
 - Separate research question, causal explanation, hypothesis, operationalization, and testing strategy.
 - Start from the dependent variable/outcome when building causal explanations.

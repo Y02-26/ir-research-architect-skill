@@ -14,6 +14,21 @@ def scaffold(topic: str) -> str:
 
 {topic}
 
+## 0. Input-Responsive Retrieval
+
+Before filling the design, identify what the user's input actually asks for.
+
+| Signal in user input | Detected content | Relevant reference to consult |
+|---|---|---|
+| Broad topic or unclear outcome | | reasoning-patterns.md; question-and-literature.md |
+| Draft/title/proposal needing critique | | checklists.md plus weakest-link reference |
+| Literature-review design from provided materials | | question-and-literature.md |
+| Mechanism, hypothesis, scope, confounder, mediator, collider | | causal-explanation.md |
+| Variables, indicators, coding, validity, reliability | | operationalization-measurement.md |
+| Cases, process tracing, controls, tests, evidence | | hypothesis-testing.md |
+| Thesis/proposal/chapter structure | | thesis-writing.md |
+| Chinese academic phrasing | | chinese-output-style.md |
+
 ## 1. Topic Narrowing
 
 | Item | Draft |
@@ -26,13 +41,6 @@ def scaffold(topic: str) -> str:
 | Variation, change, or anomaly | |
 | Available evidence | |
 | Research value | |
-
-Diagnostic prompts:
-
-- What is the observable phenomenon, not only the broad field?
-- What varies across cases, actors, institutions, issue areas, episodes, or time?
-- Why is this pattern surprising relative to theory, expectation, or another case?
-- What evidence could realistically be collected?
 
 ## 2. Research Question
 
@@ -66,14 +74,6 @@ Use only user-provided sources, abstracts, bibliographies, excerpts, or reading 
 | Scope condition, if needed | |
 | Alternative explanation | |
 | Observable implication | |
-
-Mechanism diagnostics:
-
-- Who are the actors or entities in each step?
-- What changes: beliefs, incentives, resources, information, institutions, or constraints?
-- Why does each step generate the next step?
-- What evidence would we observe if this step occurred?
-- What rival mechanism would predict a different trace?
 
 ## 5. Hypotheses
 
@@ -121,6 +121,8 @@ def checklist(topic: str) -> str:
 
 Topic: {topic}
 
+- [ ] The answer is based on the user's actual input, not a default workflow.
+- [ ] The relevant reference files were selected from the user's task signals.
 - [ ] The topic is narrower than a field and broader than a single fact.
 - [ ] The puzzle identifies an anomaly, contrast, change, or unresolved debate.
 - [ ] The dependent variable Y is derived from the user's topic, not from a preset menu.
@@ -147,6 +149,18 @@ def question(topic: str, lang: str) -> str:
 ## 初始主题
 
 {topic}
+
+## 先检索相关知识库
+
+先根据用户输入判断应该读取哪些 reference，而不是直接套模板。
+
+| 输入信号 | 当前题目里有什么 | 应检索的知识库 |
+|---|---|---|
+| 主题宽泛 / Y 不清楚 | | reasoning-patterns.md; question-and-literature.md |
+| 已有草稿 / 需要诊断 | | checklists.md + 最弱环节对应 reference |
+| 因果机制 / 假设 / 变量关系 | | causal-explanation.md |
+| 操作化 / 指标 / 编码 | | operationalization-measurement.md |
+| 检验 / 案例 / 证据 | | hypothesis-testing.md |
 
 ## 先不要写假设
 
@@ -186,6 +200,18 @@ def question(topic: str, lang: str) -> str:
 ## Initial Topic
 
 {topic}
+
+## Retrieve Relevant Knowledge First
+
+Select references from the user's actual input before answering.
+
+| Input signal | Detected content | Reference to retrieve |
+|---|---|---|
+| Broad topic / unclear Y | | reasoning-patterns.md; question-and-literature.md |
+| Draft / diagnosis request | | checklists.md plus weakest-link reference |
+| Mechanism / hypothesis / variable relation | | causal-explanation.md |
+| Operationalization / indicators / coding | | operationalization-measurement.md |
+| Testing / cases / evidence | | hypothesis-testing.md |
 
 ## Do Not Write Hypotheses Yet
 
@@ -231,6 +257,7 @@ def diagnose(topic: str, lang: str) -> str:
 
 | 环节 | 诊断问题 | 当前问题 | 修正动作 |
 |---|---|---|---|
+| 输入检索 | 是否根据用户输入选择了相关知识库？ | | 先判断任务信号，再读对应 reference。 |
 | 主题 | 是否只是领域标签？ | | 收窄到行动者、结果、时间、空间和变化。 |
 | 研究问题 | Y 是否来自当前题目，而不是来自固定模板？ | | 根据题目现场生成 Y。 |
 | 文献综述设计 | 是否只是作者罗列？ | | 按解释类型、机制、方法、证据和局限分组。 |
@@ -250,6 +277,7 @@ Find the weakest link before rewriting.
 
 | Link | Diagnostic question | Current problem | Repair move |
 |---|---|---|---|
+| Input retrieval | Were relevant references selected from the user's input? | | Detect task signals, then read matching references. |
 | Topic | Is this only a field label? | | Narrow actor, outcome, time, place, and variation. |
 | Research question | Is Y generated from this topic rather than a fixed template? | | Generate candidate Y values from the topic. |
 | Literature-review design | Is this only author-by-author summary? | | Group by explanation, mechanism, method, evidence, and limitation. |
@@ -273,6 +301,7 @@ A broad international-relations topic with an unclear outcome. Help me design a 
 
 Expected behavior:
 
+- Select relevant references from task signals first.
 - Do not provide a fixed outcome menu.
 - Ask what action, state, relation, or result in the user's topic could vary.
 - Generate candidate Y values from the topic itself.
@@ -288,6 +317,7 @@ My topic has an outcome that varies across cases. Help me write a causal mechani
 
 Expected behavior:
 
+- Retrieve causal-explanation guidance.
 - Clarify the outcome Y, cases, and time period.
 - Rebuild the mechanism from actors, incentives, resources, information, and constraints.
 - Do not copy a mechanism from an example.
@@ -302,6 +332,7 @@ A broad international-relations topic with an unclear outcome. What is wrong wit
 
 Expected behavior:
 
+- Retrieve checklist guidance first.
 - Diagnose the weakest link first.
 - Identify that Y and variation are not yet generated from the topic.
 - Do not offer stock outcomes or stock question families.

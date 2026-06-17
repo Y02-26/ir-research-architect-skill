@@ -26,6 +26,22 @@ Use this sequence as the default workflow:
 
 ## Which Reference To Use
 
+Use this as an input-responsive retrieval map. Select by the user's actual request:
+
+- User gives a broad topic or asks "what can I study": open `reasoning-patterns.md` and `question-and-literature.md`.
+- User gives a draft title, paragraph, proposal, or asks "what is wrong": open `checklists.md`; add the specific reference for the weakest link.
+- User asks about literature review design from provided materials: open `question-and-literature.md`.
+- User asks about causal mechanism, hypotheses, scope condition, confounder, mediator, or collider: open `causal-explanation.md`.
+- User asks about variable definition, indicators, coding, validity, or reliability: open `operationalization-measurement.md`.
+- User asks about case selection, process tracing, controls, quantitative tests, or evidence: open `hypothesis-testing.md`.
+- User asks about introduction, proposal, thesis outline, chapter structure, or writing: open `thesis-writing.md`.
+- User asks in Chinese or wants Chinese academic phrasing: open `chinese-output-style.md`.
+- User asks whether the project is academic, policy, or mixed: open `research-orientation.md`.
+
+Do not load the full workflow unless the user asks for an end-to-end design.
+
+## Reference Shortcuts
+
 - Need a complete design: open `research-workflow.md`.
 - Need safe reasoning patterns or broad-topic conversion: open `reasoning-patterns.md`.
 - Need Chinese academic-method phrasing: open `chinese-output-style.md`.
@@ -46,9 +62,9 @@ Use this sequence as the default workflow:
 - Operationalization table: concept, definition, dimensions, indicators, source, coding rule, validity risk.
 - Testing plan: hypothesis, observable implication, evidence, method, alternative explanation, falsification risk.
 
-For broad topics, prefer outcome-discovery outputs before full designs:
+For broad topics, prefer generated outcome-discovery outputs before full designs:
 
-- possible dependent variables/outcomes;
+- candidate dependent variables/outcomes generated from the user's wording;
 - possible variation or anomaly;
 - candidate research questions;
 - missing scope/evidence information.
