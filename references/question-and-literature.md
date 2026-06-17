@@ -17,9 +17,9 @@ Look for:
 - mismatch between theory and evidence;
 - an important phenomenon with unclear mechanism.
 
-Weak: "I study external pressure and policy change."
+Weak: "I study [broad field or theme]."
 
-Better: "Under a similar external condition, why does observable outcome Y vary across cases or over time?"
+Better: "First identify the user's intended outcome Y, then write a question that explains variation in that Y within the user's chosen scope."
 
 Puzzle diagnostics:
 
@@ -40,22 +40,22 @@ A research question should be:
 - answerable: evidence and method are plausible;
 - bounded: cases and time frame are not unlimited.
 
-Useful forms:
+Do not treat the following as templates. Use them only as diagnostic checks:
 
-- Why did Y occur in case A but not case B?
-- Why did Y change after time T?
-- How does X produce Y?
-- Under what conditions does X affect Y?
-- Why does the same pressure produce different outcomes?
+- Does the question identify an outcome Y?
+- Does it specify where Y varies: cases, time, actors, issue areas, institutions, or episodes?
+- Does it ask for explanation rather than description only?
+- Does it avoid naming X before Y is clear?
+- Does it avoid importing a familiar IR frame that the user did not provide?
 
 Question repair patterns:
 
 | Weak question | Problem | Better direction |
 |---|---|---|
-| What is digital diplomacy? | Descriptive only. | Why do states adopt different digital diplomacy strategies under similar external pressure? |
-| How should China improve diplomacy? | Normative policy advice. | What factors explain variation in China's crisis-communication strategies across cases? |
-| Does power matter? | Too broad and obvious. | Under what conditions does relative power change alliance bargaining outcomes? |
-| Study the Belt and Road. | Topic, not question. | Why do some host-country infrastructure projects face stronger local resistance than others? |
+| What is [concept]? | Descriptive only. | What observable outcome varies, and why does it vary? |
+| How should [actor] improve [policy]? | Normative policy advice. | What explains variation in the actor's observable behavior or outcome? |
+| Does [broad factor] matter? | Too broad and obvious. | First define Y and scope, then ask how the factor relates to that Y. |
+| Study [large initiative/theme]. | Topic, not question. | Which observable result varies across cases, time, or settings? |
 
 Do not copy these question frames into unrelated topics. They show repair operations, not preferred countries, issues, outcomes, or theories.
 

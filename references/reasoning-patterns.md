@@ -26,75 +26,72 @@ Core rule:
 Copy the reasoning move, never the substantive mechanism.
 ```
 
-## Pattern 1: Broad Topic -> Possible Outcomes
-
-User topic:
-
-```text
-External pressure and policy change
-```
+## Pattern 1: Broad Topic -> Generate Candidate Outcomes
 
 Bad move:
 
 ```text
-Immediately ask: How does external pressure affect policy change?
+Immediately convert a broad topic into a familiar research question.
 ```
 
 Problem:
 
-The outcome is vague. "Affect policy change" does not identify what varies.
+The outcome is usually still vague. The agent may import a familiar frame, actor, case, or strategic posture that the user did not provide.
 
 Better move:
 
-List possible outcomes first:
+Generate candidate outcomes from the user's own wording and context. Do not use a fixed outcome list.
 
-- policy adoption or non-adoption;
-- voting behavior;
-- treaty participation;
-- regulatory change;
-- crisis response;
-- resource allocation;
-- institutional compliance;
-- public framing;
-- cooperation intensity;
-- conflict escalation or de-escalation.
+Use these as diagnostic dimensions, not answer choices:
 
-Then ask which outcome the user wants to explain.
+- What actor behavior could vary?
+- What decision, practice, rule, claim, interaction, or resource could change?
+- What observable event, degree, direction, timing, sequence, or frequency could be measured?
+- What comparison is implied by the user's topic: across cases, within one case over time, across institutions, across issue areas, or across episodes?
+- What evidence would make each candidate outcome observable?
 
-Do not choose a cause or mechanism until the outcome and scope are fixed.
+Then ask which generated outcome best matches the user's intent.
+
+Do not choose a cause, case, theory family, or mechanism until the outcome and scope are fixed.
 
 ## Pattern 2: Topic -> Variation
 
 Weak topic:
 
 ```text
-International organizations and conflict mediation
+[broad theme or field label]
 ```
 
-Better researchable variations:
+Better move:
 
-- Why did mediation succeed in case A but fail in case B?
-- Why did the same organization become more active after a specific year?
-- Why did some member states accept mediation while others resisted it?
-- Under what conditions does mediation reduce conflict recurrence?
+Generate the variation from the user's own topic instead of supplying a sample outcome.
+
+Ask:
+
+- What result, behavior, relation, or condition in the user's wording could vary?
+- Does it vary across cases, time, actors, institutions, issue areas, or episodes?
+- Is the variation about occurrence, degree, timing, direction, sequence, or meaning?
+- What evidence would show that the variation exists?
 
 Reasoning move:
 
 Find variation in occurrence, degree, timing, success/failure, or cross-case difference.
 
-## Pattern 2B: Multiple Question Families
+## Pattern 2B: Generate Topic-Specific Question Forms
 
-For broad topics, offer several neutral question families before choosing one:
+For broad topics, generate several topic-specific question forms from the user's phenomenon. Do not present a fixed menu of question families.
 
-| Family | Generic question frame |
+Use this worksheet internally:
+
+| Diagnostic dimension | Question to ask before writing |
 |---|---|
-| Variation | Under a similar external condition, why does outcome Y vary across cases? |
-| Process | Through what process does factor X generate outcome Y? |
-| Condition | Under what conditions does X produce Y rather than not-Y? |
-| Timing | Why did Y occur after time T rather than before? |
-| Comparison | Why did case A and case B produce different values of Y? |
+| Difference | What varies, and across what comparison set? |
+| Process | What process is unknown, and what traces could reveal it? |
+| Boundary | Where might the explanation apply or fail? |
+| Timing | What changed before and after a specific period or event? |
+| Comparison | Which comparison would make the puzzle clearer? |
 
-Do not collapse broad topics into one familiar strategic-choice frame.
+After using the worksheet, write fresh question formulations in the user's vocabulary. Do not copy the diagnostic dimension names into the final question unless they are genuinely useful.
 
 ## Pattern 3: Mechanism Must Be Rebuilt
 

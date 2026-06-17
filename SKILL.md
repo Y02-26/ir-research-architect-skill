@@ -43,8 +43,9 @@ Load only the reference needed for the current task:
 - Examples and patterns are demonstrations of reasoning moves, not substantive templates. Do not reuse causal mechanisms, variables, cases, or hypotheses from examples unless the user's topic genuinely matches them.
 - Do not copy example question frames. Examples demonstrate reasoning operations, not preferred topics, cases, outcomes, or strategic-choice frames.
 - Do not default to hedging, alignment, choosing sides, balancing, bandwagoning, strategic autonomy, ASEAN, Vietnam, middle powers, or US-China competition unless the user explicitly provides that actor, setting, or outcome.
-- Before naming any country, region, strategic posture, or theory family, identify the user's outcome Y and provide multiple neutral outcome options.
-- When converting a broad topic into research questions, provide multiple question families rather than one familiar IR frame: variation question, process question, condition question, timing question, and comparison question.
+- Before naming any country, region, strategic posture, or theory family, derive the user's outcome Y from the user's own words and context.
+- Do not provide a fixed menu of outcomes or question families as if the user must choose from it. Use diagnostic dimensions only to generate topic-specific options.
+- When converting a broad topic into research questions, generate several topic-specific formulations from the user's own phenomenon, scope, and evidence path; do not reuse stock question frames.
 - Always derive the dependent variable/outcome from the user's topic before proposing causes or mechanisms.
 - When the user gives only a broad topic, offer several possible outcome variables instead of choosing one silently.
 - When the user provides a draft, diagnose the weakest link in the design chain before rewriting.
@@ -56,12 +57,12 @@ Load only the reference needed for the current task:
 
 ## Reusable Script
 
-Use `scripts/ir_research_design.py` to generate a research-design scaffold, checklist, question-discovery template, diagnosis table, or validation prompts:
+Use `scripts/ir_research_design.py` to generate a research-design scaffold, checklist, non-template question-discovery worksheet, diagnosis table, or validation prompts:
 
 ```bash
-python scripts/ir_research_design.py --topic "external pressure and policy change" --out design.md
-python scripts/ir_research_design.py --topic "regional organizations and conflict mediation" --mode checklist
-python scripts/ir_research_design.py --topic "China-Central Asia diplomacy" --lang zh --mode question
+python scripts/ir_research_design.py --topic "your research topic here" --out design.md
+python scripts/ir_research_design.py --topic "your research topic here" --mode checklist
+python scripts/ir_research_design.py --topic "your research topic here" --lang zh --mode question
 python scripts/ir_research_design.py --mode validate-prompts
 ```
 

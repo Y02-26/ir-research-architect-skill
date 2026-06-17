@@ -55,7 +55,7 @@ Diagnostic questions:
 
 Common mistakes:
 
-- Treating a broad field as a topic, such as "external pressure", "global governance", or "regional cooperation".
+- Treating a broad field label as a research question.
 - Choosing a topic that is only a single fact with no explanatory leverage.
 - Choosing a fashionable topic but lacking a research puzzle.
 - Choosing a normatively attractive topic but not an empirical question.
